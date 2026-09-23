@@ -410,7 +410,7 @@ Image Intelligence focuses on discovering, identifying, verifying, contextualizi
 
 Video Intelligence focuses on investigating, verifying, analyzing, locating, and extracting intelligence from video content, including its source, metadata, frames, captions, location, timing, and possible manipulation.
 
-| Tool                 | Type                                     | Purpose                                                                                  | What It Provides                                                                                                                                         | URL / Access                                                                                                                      |
+| Tool / resources                | Type                                     | Purpose                                                                                  | What It Provides                                                                                                                                         | URL / Access                                                                                                                      |
 | -------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | **MediaInfo**  | Video Metadata & Technical Analysis Tool | Inspect the technical characteristics and embedded information of video files. | Container, codecs, duration, bitrate, frame rate, resolution, audio/video streams, subtitles, chapters, and available tags.  | [MediaInfo](https://mediaarea.net/en/MediaInfo) **Free / Open Source**  |
 | **FFprobe**  | Multimedia Metadata Analysis Tool | Inspect detailed technical information from video and audio files.  | Container, streams, codecs, frame rates, timestamps, metadata and other technical properties.   | [FFmpeg / FFprobe](https://ffmpeg.org/) **Free / Open Source**   |
@@ -459,65 +459,129 @@ News & Media Intelligence focuses on discovering, monitoring, analysing, verifyi
 | **FactCheck.org**  | Fact-Checking Organisation | Research claims made in U.S. political and public discourse. | Fact checks, source-based explanations and claim investigations.  | [FactCheck.org](https://www.factcheck.org/) **Free**  |
 | **StopFake** | Fact-Checking Organisation | Investigate misinformation and false narratives, particularly involving Ukraine and regional information environments. | Fact checks, misinformation investigations and source analysis. | [StopFake](https://www.stopfake.org/en/) **Free**  |
 
+## Phase 13: Public Records
 
+Public records are a core source of verifiable information for OSINT investigations. Which can help investigators establish identities, trace companies and ownership, research court cases, examine property, locate historical records, investigate government activity, and connect people or organizations through documented records.
+| Tool / Resources              | Type                     | Purpose                                                       | What It Provides                                                                                                                | URL / Access                                                                   |
+| ----------------- | ------------------------ | ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **CourtListener** | Legal Research Platform  | Search and investigate U.S. court records and legal decisions | Millions of federal and state court opinions, RECAP documents, dockets, judges, attorneys, case information and legal citations | [CourtListener](https://www.courtlistener.com/)  **Free**  |
+| **PACER**         | Official Court Records   | Research U.S. federal court cases and filings  | Federal case dockets, complaints, motions, judgments, filings and case metadata across U.S. federal courts  | [PACER](https://pacer.uscourts.gov/) **Registration Required / Paid Access** |
+| **CanLII**        | Legal Research Platform  | Research Canadian case law and legislation   | Canadian federal and provincial court decisions, statutes, regulations and legal materials  | [CanLII](https://www.canlii.org/en/)  **Free**   |
+| **JudyRecords**   | Court Records Aggregator | Search publicly available U.S. court records  | Court case records indexed from multiple U.S. jurisdictions, useful for discovering litigation involving a person or entity     | [JudyRecords](https://www.judyrecords.com/) — **Free / Varies by Record**  |
+| **Indian Kanoon** | Legal Research Platform  | Search Indian judgments and legal documents  | Indian Supreme Court, High Court and lower-court judgments, statutes and legal references | [Indian Kanoon](https://indiankanoon.org/) **Free**  |
+| **OpenCorporates** | Corporate Registry Aggregator  | Research companies across jurisdictions | Company names, registration numbers, jurisdictions, officers, addresses, status and relationships sourced from public registries | [OpenCorporates](https://opencorporates.com/)  **Free / API Available**  |
+| **SEC EDGAR**  | Official Regulatory Database   | Investigate U.S. public companies and securities filings | Annual reports, quarterly reports, insider filings, registration statements, ownership filings and other SEC submissions  | [SEC EDGAR](https://www.sec.gov/edgar/search/) **Free**  |
+| **Companies House**  | Official Corporate Registry   | Investigate companies registered in the UK   | Company status, registered office, SIC codes, officers, filing history and available company documents  | [Companies House](https://find-and-update.company-information.service.gov.uk/) **Free** |
+| **Nigeria CAC Public Search** | Official Corporate Registry   | Verify Nigerian companies and business entities  | Entity names, registration numbers, registration status, directors and other available company information  | [CAC Public Search](https://search.cac.gov.ng/) **Free / Public Access**  |
+| **ZaubaCorp**  | Corporate Information Platform | Search Indian company information   | Company registration details, directors, charges and corporate information compiled from Indian public records   | [ZaubaCorp](https://www.zaubacorp.com/) **Free / Limited Access**  |
+| **Regrid** | Property / Parcel Database  | Research property and parcel information in the U.S. and other supported areas | Parcel boundaries, parcel IDs, property addresses, ownership-related information, land use and property attributes | [Regrid](https://regrid.com/) **Free / Paid Features**  |
+| **PropertyShark** | Property Records Aggregator | Investigate U.S. properties and ownership history  | Property ownership, sales history, tax information, permits, liens, mortgages, zoning and related records  | [PropertyShark](https://www.propertyshark.com/) **Free / Paid Features** |
+| **NJParcels**   | Property Records  | Research New Jersey property information | Parcel boundaries, property information and links to New Jersey property records | [NJParcels](http://njparcels.com/property/) **Free**  |
+| **Michigan OTIS** | Official Corrections Database | Search Michigan offender records  | Offender information, incarceration status and available correctional history  | [Michigan OTIS](https://mdocweb.state.mi.us/OTIS2/otis2.aspx)  **Free**   |
+| **Credibly Accused**  | Investigative Database  | Research Catholic clergy abuse allegations and institutional records in the U.S. | Names, allegations, dioceses, religious orders and related publicly documented information  | [ProPublica Credibly Accused](https://projects.propublica.org/credibly-accused/) **Free** |
+| **National Crime Records Bureau (NCRB)**  | Government Crime Data | Research crime and criminal-justice statistics in India  | National crime statistics, crime trends, criminal-justice datasets and statistical publications  | [NCRB](https://www.ncrb.gov.in/) **Free / Public Access** |
+| **FamilySearch** | Genealogy & Historical Records | Research historical identities and family relationships  | Birth, marriage, death, census, immigration, cemetery and other historical records from many jurisdictions | [FamilySearch](https://www.familysearch.org/) **Free / Account Required** |
+| **Steve Morse One-Step Webpages**  | Genealogy Research Tools  | Search and cross-reference historical U.S. records | Interfaces for census, immigration, Social Security, vital records, geographic changes and other historical datasets | [Steve Morse](https://stevemorse.org/) **Free**  |
+| **Social Security Death Index / SSDI Tools** | Historical Death Records | Research deceased individuals in U.S. historical records | Death-related Social Security records and search interfaces  | [Steve Morse SSDI](https://stevemorse.org/ssdi/ssdi.html) **Free**  |
+| **SortedByName**  | Genealogy Index  | Search historical names and death-related records | Name-based indexes and historical genealogy information  | [SortedByName](https://sortedbyname.com/) **Free** |
+| **USAspending.gov**  | Government Spending Database  | Investigate U.S. federal spending  | Federal contracts, grants, loans, awards, recipients, agencies and spending information | [USAspending.gov](https://www.usaspending.gov/) **Free**   |
+| **TED – Tenders Electronic Daily**   | EU Procurement Database   | Research European public procurement | Public procurement notices, contracts, buyers, suppliers and tender information across the EU | [TED](https://ted.europa.eu/) **Free** |
+| **EU Financial Transparency System**   | EU Financial Records  | Research recipients of European Union funds | EU budget beneficiaries, recipients and financial information | [EU Financial Transparency System](https://ec.europa.eu/budget/financial-transparency-system/) **Free** |
+| **U.S. National Archives (NARA)**  | Government Archive | Research historical U.S. government records   | Federal records, historical documents, photographs, military records, census-related material and archival collections | [National Archives](https://www.archives.gov/) **Free**    |
+| **Access to Archival Databases (AAD)** | Government Database   | Search structured historical U.S. government records  | Digitized datasets covering military, immigration, federal administration and other historical records  | [AAD](https://aad.archives.gov/) **Free**  |
+| **FOIA.gov** | Government Records Request System | Request non-exempt federal agency records in the U.S. | Information on requesting federal agency records that are not otherwise publicly available  | [FOIA.gov](https://www.foia.gov/) **Free / Request-Based** |
+| **ICIJ Offshore Leaks Database** | Investigative Database  | Investigate offshore companies, trusts and financial relationships | Offshore entities, companies, trusts, foundations, intermediaries, officers, addresses and relationships across multiple leak datasets | [ICIJ Offshore Leaks Database](https://offshoreleaks.icij.org/) **Free**  |
+| **Open Ownership**  | Beneficial Ownership Database | Research corporate ownership and beneficial ownership information  | Beneficial ownership data and information about corporate ownership structures where available | [Open Ownership](https://www.openownership.org/) **Free / Data Access Varies** |
 
+## Phase 13: Corporate Intelligence
 
+Corporate Intelligence focuses on understanding companies as entities and networks — including their ownership structures, corporate relationships, financial profiles, investors, subsidiaries, directors, and cross-border connections.
 
+| Tool / Resources                | Type                                 | Purpose                                                                      | What It Provides                                                                                                                                          | URL / Access                                                                                                             |
+| -------------------- | ------------------------------------ | ---------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| **GLEIF LEI Search** | Entity Intelligence / Ownership Data | Identify and resolve legal entities globally   | Legal Entity Identifiers (LEIs), standardized company information, direct and ultimate parent relationships, entity status and historical reference data  | [GLEIF LEI Search](https://search.gleif.org/) **Free** |
+| **Moody's Orbis**  | Corporate Intelligence Platform  | Investigate companies, corporate groups and ownership structures | Company profiles, financial information, shareholders, ownership structures, subsidiaries, corporate hierarchies, M&A information and company comparisons | [Moody's Orbis](https://www.moodys.com/web/en/us/capabilities/company-reference-data/orbis.html) **Paid / Enterprise** |
+| **Sayari Graph** | Corporate Network Intelligence  | Map complex international corporate and commercial relationships  | Ownership chains, corporate networks, UBO information, company relationships, trade connections and cross-border entity intelligence | [Sayari Graph](https://sayari.com/platform/graph/) **Paid / Enterprise**  |
+| **Global Database**  | Corporate Intelligence Platform | Research companies and reconstruct corporate structures across jurisdictions | Company profiles, directors, shareholders, financial information, ownership structures, corporate groups and ownership relationships | [Global Database](https://www.globaldatabase.com/) **Free Trial / Paid**  |
+| **Kyckr**    | Corporate Data Platform   | Retrieve and normalize company information from multiple jurisdictions  | Company profiles, directors, shareholders, UBO information where available, official filings, registry data and corporate identifiers. | [Kyckr](https://kyckr.com/) **Paid** |
+| **Crunchbase** | Private Company Intelligence | Investigate private companies, startups and their business networks  | Funding rounds, investors, key people, acquisitions, company history, industry information and business relationships | [Crunchbase](https://www.crunchbase.com/) **Free / Paid Features**  |
 
+## 13.1 Corperate Intelligence - Resources & Guides
+| Resources                                                      | Type                          | Purpose                                                                              | What It Provides                                                                                                                                                                                             | URL / Access                                                                                                                                        |
+| --------------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **OSINT Combine – Corporate Profiling Course**            | Training Course               | Learn a structured methodology for investigating companies with OSINT                | Corporate investigation planning, company profiling, ownership/shareholder analysis, beneficial ownership, leadership research, sanctions screening, trade-data research and corporate-network investigation | [Corporate Profiling Course](https://training.osintcombine.com/courses/corporate-profiling) **Paid**                                              |
+| **OSINT Guide – Business Due Diligence**                  | Practical Guide               | Learn how to conduct an OSINT-based company due-diligence investigation              | Entity verification, ownership/control mapping, financial and filing checks, litigation and sanctions screening, adverse-media checks and digital-footprint verification                                     | [How to Conduct OSINT Due Diligence on a Business](https://www.osintguide.com/en/methods/conduct-business-due-diligence) **Free**                 |
+| **OSINTBench – Corporate Due Diligence**                  | Practical Guide               | Learn how OSINT can support corporate due diligence                                  | Ownership mapping, regulatory screening, adverse-media research, M&A research, vendor due diligence and investment research                                                                                  | [OSINT for Corporate Due Diligence](https://www.osintbench.com/guides/osint-for-corporate-due-diligence/) **Free**                                |
+| **Signal & Shadow – Company Investigation Guide**         | Investigation Guide           | Learn a repeatable workflow for investigating companies                              | Company registration, director cross-referencing, ownership research, offshore records, sanctions and adverse-media investigation                                                                            | [How to Investigate a Company with OSINT](https://signalandshadow.io/p/how-to-investigate-a-company-osint) **Free**                               |
+| **FORT Intelligence – OSINT Investigations for Business** | Practical Guide               | Understand how OSINT is applied to corporate investigations and due diligence        | Business OSINT methodology, public-source research, corporate due diligence and investigative techniques                                                                                                     | [OSINT Investigations for Business](https://www.fortintel.com/blog/osint-investigations-business-guide) **Free**                                  |
+| **ACFE – Fraud Investigation & Examination Resources**    | Professional Resource Library | Develop investigative skills relevant to corporate fraud and internal investigations | Investigation methodology, fraud examination, interviewing, financial statement fraud, corporate investigations and investigative case material                                                              | [ACFE Fraud Investigation & Examination](https://www.acfe.com/fraud-resources/fraud-investigation-and-examination) **Free / Some Member Content** |
+| **Bellingcat Online Investigation Toolkit**               | Investigation Toolkit         | Build broader OSINT investigation skills applicable to corporate research            | Search, web research, verification, mapping, social-media research, archives and other investigative techniques                                                                                              | [Bellingcat Toolkit](https://bellingcat.gitbook.io/toolkit) **Free**                                                                              |
 
+## Phase 14: Financial Intelligence (FININT)
 
+Financial Intelligence focuses on researching and analyzing financial institutions, financial instruments, banking relationships, markets, economic data, and financial activity to understand the movement, ownership, and context of money and assets.
 
+| Tool / Resource                                                | Type                               | Purpose                                                             | What It Provides                                                                                                                                                        | URL / Access                                                                        |
+| ---------------------------------------------------- | ---------------------------------- | ------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
+| **FDIC BankFind Suite**   | Banking Intelligence | Research U.S. banks and financial institutions  | Institution profiles, assets, liabilities, capital, income, expenses, historical financial data, institution status and regulatory informations. | [FDIC BankFind Suite](https://banks.data.fdic.gov/bankfind-suite/) **Free**       |
+| **FFIEC National Information Center (NIC)**  | Financial Institution Intelligence | Research U.S. financial institutions and their relationships  | Institution identifiers, ownership/organizational information, bank holding companies, foreign banking organizations, historical institution data and financial reports | [FFIEC NIC](https://www.ffiec.gov/npw) **Free**  |
+| **ABA Routing Number Search**  | Banking Reference | Identify U.S. financial institutions from routing numbers  | Routing numbers, associated financial institutions and location information | [ABA Routing Number Search](https://routingnumber.aba.com/Search1.aspx) **Free**  |
+| **Financial Institutions Directory – Singapore MAS** | Banking Intelligence  | Identify and research financial institutions operating in Singapore | Financial institution names, categories and regulatory information  | [MAS Financial Institutions Directory](https://eservices.mas.gov.sg/fid) **Free** |
+| **FINRA BrokerCheck** | Securities Intelligence  | Research U.S. brokers, investment advisers and securities firms | Registration history, employment history, regulatory disclosures, customer disputes, arbitrations and disciplinary information | [FINRA BrokerCheck](https://brokercheck.finra.org/) **Free**   |
+| **IMF Data**  | International Economic & Financial Data | Research country-level and global financial conditions | Balance of payments, international investment, exchange rates, fiscal data, national accounts, financial access and other macro-financial datasets | [IMF Data](https://data.imf.org/) **Free**  |
+| **FRED**   | Economic Data Platform  | Analyze financial and economic trends over time  | Interest rates, inflation, money supply, exchange rates, employment, banking, credit, markets and thousands of economic time series   | [FRED](https://fred.stlouisfed.org/) **Free**  |
+| **Financial Secrecy Index** | Financial Transparency Research  | Investigate jurisdictions associated with financial secrecy  | Country-level financial-secrecy indicators, secrecy characteristics and jurisdictional analysis  | [Financial Secrecy Index](https://fsi.taxjustice.net/) **Free**  |
+| **Know Your Country** | Country Risk Intelligence | Research country-level financial, regulatory and AML information | Country reports, AML/CFT information, corruption indicators, financial-system information and jurisdictional risk context | [Know Your Country](https://www.knowyourcountry.com/) **Free / Some Content** |
+| **FinCEN**  | Financial Intelligence Institution | Research U.S. financial-crime intelligence and regulatory information   | AML/BSA information, financial-crime advisories, enforcement information, typologies and public financial-intelligence reports  | [FinCEN](https://www.fincen.gov/) **Free / Public Information**  |
+| **FinCEN SAR Resources** | Financial Crime Intelligence  | Understand suspicious-activity reporting and financial-crime indicators | SAR-related information, AML guidance, advisories, typologies and reporting resources useful for understanding financial trails | [FinCEN SAR Resources](https://www.fincen.gov/resources) **Free**   |
+| **ACFE Fraud Resources** | Fraud Investigation Resource   | Research financial fraud investigation techniques  | Fraud schemes, investigation resources, fraud indicators, examination techniques and investigative material | [ACFE Fraud Resources](https://www.acfe.com/fraud-resources) **Free / Some Member Content** |
+| **BINLIST**  | Payment Identifier Reference | Identify payment-card issuing information from a BIN/IIN | Card-network, issuer, country and card-type information associated with supported BIN/IIN ranges | [BINLIST](https://binlist.net/) **Free / API Available** |
+| **OANDA Currency Converter** | FX Reference | Research historical and current currency conversions | Exchange rates and historical currency conversion by date. | [OANDA Currency Converter](https://www.oanda.com/currency-converter/) **Free / Paid Features** |
 
+## Phase 15: Cryptocurrency Intelligence
 
+Cryptocurrency Intelligence focuses on researching blockchain transactions, wallet addresses, cryptocurrency entities, fund flows, token activity, on-chain relationships, and the movement of digital assets across blockchain networks.
+| Tool / Resources | Type | Purpose | What It Provides | URL / Access |
+| ---- | ---- | ------- | ---------------- | ------------ |
+| **Etherscan**   | Blockchain Explorer   | Investigate Ethereum addresses, transactions and token activity  | Address histories, transactions, internal transactions, token transfers, smart contracts, ENS/domain information, balances and block data  | [Etherscan](https://etherscan.io/) **Free**   |
+| **Blockchair** | Multi-Blockchain Explorer  | Search and analyze blockchain data across multiple networks  | Address, transaction and block searches, filtering, sorting, full-text blockchain search and API access across numerous blockchains  | [Blockchair](https://blockchair.com/) **Free / Paid API**  |
+| **WalletExplorer**   | Bitcoin Wallet Clustering  | Identify relationships between Bitcoin addresses  | Groups addresses believed to belong to the same wallet using transaction co-spending heuristics and provides wallet/service labels where identified | [WalletExplorer](https://www.walletexplorer.com/) **Free**  |
+| **Blockonomics Wallet Watcher** | Bitcoin Wallet Monitoring  | Monitor Bitcoin addresses and wallet activity over time | Address/xPub balances, transaction history, wallet monitoring, payment notifications, address labels and exported payment history   | [Blockonomics](https://www.blockonomics.co/) **Free / Paid Features**   |
+| **Bitquery Explorer**  | Multi-Chain Blockchain Explorer | Investigate addresses, transactions and fund movements across multiple chains | Address activity, token transfers, balances, labelled counterparties, DEX activity and multi-hop money-flow tracing across 40+ networks  | [Bitquery Explorer](https://bitquery.io/labs/explorer) **Free / No Signup for Explorer** |
+| **Arkham Intelligence**   | Blockchain Entity Intelligence    | Link blockchain addresses and activity to real-world entities  | Entity attribution, address labels, transaction histories, portfolio holdings, counterparties, balance history and visual network analysis | [Arkham Intelligence](https://arkm.com/) **Free / Paid Features** |
+| **Breadcrumbs**  | Blockchain Investigation Platform | Investigate crypto transactions and identify relationships between addresses  | Address attribution, transaction graphs, investigative tooling, case collaboration and blockchain intelligence across supported networks   | [Breadcrumbs](https://www.breadcrumbs.app/) **Free / Paid Features** |
+| **Chainalysis Reactor**  | Blockchain Forensics   | Trace cryptocurrency movements and investigate illicit financial network  | Cross-chain transaction tracing, entity attribution, network visualization, mixer/bridge/swap analysis and investigative case workflows   | [Chainalysis Reactor](https://www.chainalysis.com/product/reactor/) **Paid / Enterprise** |
+| **TRM Forensics**  | Blockchain Forensics | Investigate cryptocurrency connected to fraud, theft and financial crime  | Cross-chain tracing, entity attribution, transaction-pattern analysis, victim reports, pathfinding and evidence-oriented case management  | [TRM Forensics](https://www.trmlabs.com/blockchain-intelligence-platform/forensics) **Paid / Enterprise** |
+| **Elliptic Investigator** | Blockchain Forensics | Trace cryptocurrency across blockchains and identify entities behind transactions | Automatic investigation graphs, cross-chain tracing, entity attribution and exportable evidence trails   | [Elliptic Investigator](https://www.elliptic.co/products/investigator/) **Paid / Enterprise** |
+| **Crystal Expert** | Blockchain Investigation | Trace crypto funds and investigate complex blockchain networks | Multi-chain tracing, transaction visualization, address/entity attribution, demixing analysis and forensic investigation workflows | [Crystal Expert](https://crystalintelligence.com/crypto-investigation-tool/) **Paid / Enterprise**  |
+| **Coin Metrics Atlas** | Blockchain Data Explorer  | Search and analyze standardized blockchain data  | Blockchain transactions, addresses and blocks through a standardized data model and API | [Coin Metrics Atlas](https://atlas.coinmetrics.io/) **Free Community Access / Paid** |
+| **CoinGecko**  | Cryptocurrency Market Intelligence | Research cryptocurrency assets and their market context  | Historical/current prices, market capitalization, trading volume, exchanges, token metadata, on-chain DEX data and historical market data   | [CoinGecko](https://www.coingecko.com/) **Free / Paid API**  |
+| **CoinMarketCap**   | Cryptocurrency Market Intelligence | Research cryptocurrency markets and historical asset information | Cryptocurrency listings, historical rankings, prices, market pairs, OHLCV, metadata and historical market snapshots  | [CoinMarketCap](https://coinmarketcap.com/) **Free / Paid API**  |
+| **DeBank**  | EVM Wallet Intelligence  | Profile activity and holdings associated with EVM addresses  | Wallet portfolios, token holdings, DeFi positions, transaction/activity information and Web3 identity information  | [DeBank](https://debank.com/) **Free / Paid Features** |
+| **Whale Alert**  | Blockchain Monitoring   | Monitor significant cryptocurrency transactions across networks | Large-transaction alerts, transaction monitoring, address ownership information, historical alert archives and API-based transaction streams | [Whale Alert](https://whale-alert.io/) **Free Alerts / Paid API** |
+| **Blockonomics Wallet Watcher** | Wallet Monitoring  | Monitor known Bitcoin addresses for new activity  | Balance changes, incoming/outgoing transactions, email notifications, wallet labels and payment history  | [Blockonomics Wallet Watcher](https://www.blockonomics.co/views/wallet-watcher.html) **Free / Paid Features** |
+| **Coinwink** | Cryptocurrency Alerting | Monitor cryptocurrency prices and selected market events  | Email, Telegram and SMS alerts for cryptocurrency prices and market movements | [Coinwink](https://coinwink.com/) **Free / Paid Features**  |
 
+## 15.1  Cryptocurrency Intelligence — Resources & Guides
+| Resources                                                                        | Type                    | Purpose                                                                              | What It Provides                                                                                                                               | URL / Access                                                                                                                                                                             |
+| ---------------------------------------------------------------------------- | ----------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Bellingcat – Tracking Illicit Transactions With Blockchain**  | Investigation Guide     | Learn how to investigate cryptocurrency transactions using OSINT techniques | Practical methodology for starting from a Bitcoin address, transaction amount or date and following transactions through a blockchain explorer | [Bellingcat Blockchain Investigation Guide](https://www.bellingcat.com/resources/how-tos/2019/02/01/tracking-illicit-transactions-with-blockchain-a-guide-featuring-mueller/) **Free** |
+| **TRM Labs – Collecting and Investigating Cryptocurrency Data in Real-Time** | Investigation Guide     | Learn how investigators can collect and preserve cryptocurrency evidence  | Guidance for collecting, investigating and triaging blockchain evidence during fraud, money-laundering and financial-crime investigations  | [TRM Cryptocurrency Investigation Guide](https://www.trmlabs.com/guides/collecting-and-investigating-cryptocurrency-data-in-real-time) **Free** |
+| **Arkham – Blockchain Intelligence Tagging Guide** | Methodology / Guide   | Understand how blockchain address labels and entity tags are constructed and used  | Explanation of entities, labels, tags and how investigators can use Arkham's attribution system when analyzing on-chain activity  | [Arkham Tagging Guide](https://info.arkm.com/research/a-guide-to-arkham-intels-industry-leading-tagging-system) **Free**  |
+| **Chainalysis – Crypto Investigations Resources**  | Investigation Resources | Learn professional cryptocurrency investigation workflows | Blockchain intelligence concepts, investigation techniques, case studies and research covering crypto crime and tracing   | [Chainalysis Crypto Investigations](https://www.chainalysis.com/solution/crypto-investigations/) **Free Resources / Commercial Platform**  |
+| **TRM Labs Resources**  | Investigation Research  | Study cryptocurrency crime, blockchain investigations and digital-asset intelligence | Guides, reports, case studies and research covering crypto investigations, crime typologies and blockchain intelligence | [TRM Labs Resources](https://www.trmlabs.com/resources) **Free**  |
 
+---
 
+# Transportation Intelligence
 
+Transportation intelligence investigations often begin with a small piece of information such as an Aircraft registration, flight number, vessel name, IMO/MMSI number, vehicle identification number (VIN), license plate, train number, route, airport, seaport, railway station, transportation company, or other transportation-related identifier.
 
+The starting point helps determine the appropriate transportation domain, research path, and resources to use.
 
+## Phase 1: Aviation Intelligence
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Aviation intelligence focuses on researching aircraft, flights, operators, airports, and aviation-related activity using publicly available sources. An investigation can begin with an aircraft registration, tail number, ICAO 24-bit address, callsign, flight number, aircraft type, airline, airport, or observed flight path. These identifiers can be correlated across tracking platforms, aircraft registries, fleet databases, and other aviation sources to establish aircraft identity, ownership, movement, operational history, and relevant connections.
 
 
 
