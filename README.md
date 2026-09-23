@@ -5,9 +5,7 @@ A curated collection of investigative resources, research tools, datasets, metho
 ---
 
 ## Resource Areas
-[Open Source Intelligence (OSINT)](##Open-Source-Intelligence-(OSINT))
 
-[Phase 1: Username & Identity](##-Phase-1-Username--Identity)
 
 ---
 
