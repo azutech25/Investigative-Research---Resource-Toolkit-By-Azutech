@@ -4,7 +4,95 @@ A curated collection of investigative resources, research tools, datasets, metho
 
 ---
 
-## Resource Areas
+## Resource Contents
+
+###  Open Source Intelligence (OSINT)
+
+* [Username & Identity](#phase-1-username--identity)
+* [People Search & Identity Analysis](#phase-2-people-search--identity-analysis)
+* [Reverse Face & Image Search](#phase-3-reverse-face--image-search)
+
+* [Reverse Image Search Guides & Learning Resources](#31-reverse-image-search-guides--learning-resources)
+* [Email Intelligence](#phase-4-email-intelligence)
+
+* [Email Intelligence Resources / Guides for Learning](#41-email-intelligence-resources--guides-for-learning)
+* [Phone Number Intelligence](#phase-5-phone-number-intelligence)
+
+* [Phone Number Intelligence / Guides & Learning Resources](#51-phone-number-intelligence--guides--learning-resources)
+* [Social Media Intelligence (SOCMINT)](#phase-6-social-media-intelligence-socmint)
+
+* [SOCMINT — Resources & Guides](#61-socmint--resources--guides)
+* [Web Intelligence (WEBINT)](#phase-7-web-intelligence-webint)
+* [Domain Intelligence](#phase-8-domain-intelligence)
+* [IP & Infrastructure Intelligence](#phase-9-ip--infrastructure-intelligence)
+* [Image Intelligence](#phase-10-image-intelligence)
+* [Video Intelligence](#phase-11-video-intelligence)
+* [News & Media Intelligence](#phase-12-news--media-intelligence)
+* [Public Records](#phase-13-public-records)
+* [Corporate Intelligence](#phase-13-corporate-intelligence)
+
+* [Corporate Intelligence — Resources & Guides](#131-corperate-intelligence---resources--guides)
+* [Financial Intelligence (FININT)](#phase-14-financial-intelligence-finint)
+* [Cryptocurrency Intelligence](#phase-15-cryptocurrency-intelligence)
+* [Cryptocurrency Intelligence — Resources & Guides](#151-cryptocurrency-intelligence--resources--guides)
+
+###  Transportation Intelligence
+
+* [Aviation Intelligence](#phase-1-aviation-intelligence)
+
+* [Aviation OSINT Resources & Guides](#11-aviation-osint-resources--guides)
+* [Maritime Intelligence](#phase-2-maritime-intelligence)
+* [Vehicle Intelligence](#phase-3-vehicle-intelligence)
+
+* [Vehicle Intelligence Resources & Methodologies](#31-vehicle-intelligence-resources--methodologies)
+* [Vehicle Forensics / Connected Vehicle Resources](#32-vehicle-forensics--connected-vehicle-resources)
+* [Railway Intelligence](#phase-4-railway-intelligence)
+
+* [Railway Intelligence & Research Resources](#41-railway-intelligence--research-resources)
+* [Nigeria Railway Intelligence](#42-nigeria-railway-intelligence)
+* [Public & Urban Transportation Intelligence](#phase-6-public--urban-transportation-intelligence)
+
+###  Geospatial Intelligence (GEOINT)
+
+* [Geolocation Intelligence](#phase-1-geolocation-intelligence)
+* [Satellite Imagery Intelligence](#phase-2-satellite-imagery-intelligence)
+* [Mapping & Spatial Data Intelligence](#phase-3-mapping--spatial-data-intelligence)
+* [Remote Sensing & Earth Observation](#phase-4-remote-sensing--earth-observation)
+* [Terrain & Topographic Intelligence](#phase-5-terrain--topographic-intelligence)
+* [Property, Land & Cadastral Intelligence](#phase-6-property-land--cadastral-intelligence)
+* [Historical Maps & Temporal Geospatial Intelligence](#phase-7-historical-maps--temporal-geospatial-intelligence)
+* [Buildings & Urban Spatial Intelligence](#phase-8-buildings--urban-spatial-intelligence)
+* [Critical Infrastructure & Spatial Infrastructure Intelligence](#phase-9-critical-infrastructure--spatial-infrastructure-intelligence)
+* [GEOINT Resources & Methodologies](#phase-10-geoint-resources--methodologies)
+
+###  Archive & Historical Research
+
+* [Archive Discovery & Finding Aids](#phase-1-archive-discovery--finding-aids)
+* [Historical Newspapers & Periodicals](#phase-2-historical-newspapers--periodicals)
+* [Nigerian Historical Archives](#phase-3-nigerian-historical-archives)
+* [Historical Books & Academic Publications](#phase-4-historical-books--academic-publications)
+* [Government & Institutional Historical Records](#phase-5-government--institutional-historical-records)
+* [Genealogy & Historical Identity](#phase-6-genealogy--historical-identity)
+* [Historical Legal & Case Research](#phase-7-historical-legal--case-research)
+* [Historical Crime, Death & Incident Research](#phase-8-historical-crime-death--incident-research)
+* [Historical Research Methodology](#phase-9-historical-research-methodology)
+
+###  Digital Forensics
+
+* [Forensic Acquisition & Evidence Preservation](#phase-1-forensic-acquisition--evidence-preservation)
+* [Disk & File-System Forensics](#phase-2-disk--file-system-forensics)
+* [File Analysis & Low-Level Data Forensics](#phase-3-file-analysis--low-level-data-forensics)
+* [File Carving & Deleted Data Recovery](#phase-4-file-carving--deleted-data-recovery)
+* [Memory Forensics](#phase-5-memory-forensics)
+* [Network Forensics](#phase-6-network-forensics)
+* [Windows & System Artifact Forensics](#phase-7-windows--system-artifact-forensics)
+* [Browser & Internet Artifact Forensics](#phase-8-browser--internet-artifact-forensics)
+* [Timeline & Event Reconstruction](#phase-9-timeline--event-reconstruction)
+* [Metadata & File Attribute Forensics](#phase-10-metadata--file-attribute-forensics)
+* [File Identification & Format Analysis](#phase-11-file-identification--format-analysis)
+* [PDF & Document Forensics](#phase-12-pdf--document-forensics)
+* [Steganography & Hidden Data Analysis](#phase-13-steganography--hidden-data-analysis)
+* [Digital Forensics Resources & Learning](#digital-forensics-resources--learning)
 
 
 ---
@@ -1280,7 +1368,7 @@ Before examining a file, investigators often need to establish what the file act
 
 ---
 
-Phase 12: PDF & Document Forensics
+## Phase 12: PDF & Document Forensics
 
 PDFs and office documents can contain much more information than what is visible when opened normally. Their internal structure may contain metadata, embedded objects, JavaScript, incremental updates, hidden content, annotations and other artifacts.
 | Tool                           | Starting Point | Purpose                 | What It Provides                                                                                              | URL                                                                                            |
