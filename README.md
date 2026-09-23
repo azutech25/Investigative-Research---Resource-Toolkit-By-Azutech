@@ -116,6 +116,8 @@ Reverse face and image search focuses on identifying, locating, and verifying pe
 | **FaceCheck.ID** | Facial Recognition Search Engine | Search for visually similar faces across indexed online sources using an uploaded photograph. | Potential facial matches, matching images, and source pages that can be used as leads for further identity verification. Results should be treated as leads and independently verified. | Free & Paid Search [FaceCheck.ID](https://facecheck.id/) |
 | **FaceSeek** | Reverse Face Search / Identity Analysis | Investigate a person when the primary starting point is a photograph rather than a name or identifier. | Potential matching faces, public profiles, websites, and social-platform appearances, with matches ranked by confidence. | [FaceSeek](https://www.faceseek.online/) Free Daily Searches / Paid Credits |
 
+---
+
 ## 3.1 Reverse Image Search Guides & Learning Resources
 | Resource | What It Provides | URL |
 | ------ | ---- | ----- |
@@ -126,6 +128,8 @@ Reverse face and image search focuses on identifying, locating, and verifying pe
 | **Reverse Image Search With Search By Image** | Practical demonstration of searching an image across available search engines. | YouTube — [https://www.youtube.com/watch?app=desktop&v=nET3t2bJIUg](https://www.youtube.com/watch?app=desktop&v=nET3t2bJIUg) |
 | **Search-By-Image – SANS OSINT Series** | Demonstrates practical image-search methodology for open-source investigations. | YouTube — [https://www.youtube.com/watch?app=desktop&v=0uoJKlyGpbo](https://www.youtube.com/watch?app=desktop&v=0uoJKlyGpbo) |
 | **9 Tools for Verifying Images** | A collection of image-verification resources that can support visual investigation and validation. | IJNet — [https://ijnet.org/en/story/9-tools-verifying-images](https://ijnet.org/en/story/9-tools-verifying-images) |
+
+---
 
 ## Phase 4: Email Intelligence
 Email intelligence focuses on using an email address as an investigative pivot to identify associated accounts, breach exposure, online services, identifiers, and other publicly available information.
@@ -157,6 +161,7 @@ Email intelligence focuses on using an email address as an investigative pivot t
 | **DeHashed** | Breach & Data Exposure Intelligence | Search an email address and other identifiers across breached and exposed datasets to determine whether they appear in compromised data. | Breach records, associated usernames, emails, domains, IP addresses, passwords/hashes where available, source datasets, and other exposed attributes linked to the queried identifier. | [DeHashed](https://dehashed.com/) / **Paid / Subscription-based**, access to its search database requires an account/paid access. |
 | **EmailCrawl** | Email Extraction & Web Crawling | Discover publicly exposed email addresses from websites and analyze the resulting email patterns for OSINT and security investigations. | Crawls target websites, extracts emails from HTML/meta tags/`mailto` links, filters potential false positives, identifies username/domain patterns, tracks source URLs, and exports results in JSON, TXT, and tabular formats. | [EmailCrawl — GitHub](https://github.com/techenthusiast167/EMAIL-CRAWL?utm_source=chatgpt.com) / Open Source |
 
+---
 
 ## 4.1 Email Intelligence Resources / Guides for Learning
 | Resource                                                               | What It Provides                                                                                                                                                        | URL                                                                                                                                  |
@@ -166,6 +171,8 @@ Email intelligence focuses on using an email address as an investigative pivot t
 | **Email OSINT: A Complete Investigation Workflow**                     | Provides a structured email-OSINT workflow covering validation, breach checks, account discovery, username pivots, and investigation reporting.                         | [Revealer — Email OSINT Investigation Workflow](https://revealer.us/blog/email-osint-investigation-workflow?utm_source=chatgpt.com)  |
 | **Email OSINT: How to Turn an Email Address into Useful Intelligence** | Covers email-address analysis, domain investigation, public-account pivots, message authentication, evidence handling, and investigation methodology.                   | [OSINT Jet — Email OSINT Guide](https://osintjet.com/en/email-osint-guide/?utm_source=chatgpt.com)                                   |
 | **Mastering Email OSINT: Techniques for Uncovering Online Footprints** | Video training covering reverse email searches, associated accounts, monikers, domains, Google/Gaia identifiers, and practical investigation techniques.                | [SANS Cyber Defense — YouTube presentation](https://www.youtube.com/watch?v=yHwbqcFbp3k&utm_source=chatgpt.com)                      |
+
+---
 
 ## Phase 5: Phone Number Intelligence
 
@@ -206,6 +213,8 @@ Phone number intelligence focuses on identifying, validating, and correlating in
 | **PhoneLookup** | Reverse Phone Lookup & Caller Intelligence | Investigate an unknown phone number and assess its technical and reputation footprint. | Country, region, carrier, line type, timezone, international format, community reports, and spam/fraud indicators. | [PhoneLookup](https://phonelookup.in/) / **Free** |
 | **IntelMind** | Phone Intelligence | Correlate technical, reputation and public-web information around a phone number. | Number validity, country, carrier, line type, portability, VoIP/burner indicators, spam/fraud signals, public-web exposure, linked accounts where available, and report export. | [IntelMind Phone Analysis](https://intelmind.io/en/phone-lookup/) / Free initial access / Paid
 
+---
+
 ## 5.1 Phone Number Intelligence / Guides & Learning Resources
 
 | Resource                                                            | What It Provides                                                                                                                                                             | URL                                                                                                                                                                 |
@@ -214,6 +223,8 @@ Phone number intelligence focuses on identifying, validating, and correlating in
 | **Phone Number OSINT: How to Research a Number Without Calling It** | Practical workflow covering carrier/line-type analysis, social-account linkage, VoIP considerations, and investigative/legal considerations. Updated April 2026.             | [OSINTBench Phone Number OSINT Guide](https://osintbench.com/guides/phone-number-osint/?utm_source=chatgpt.com)                                                     |
 | **How to Use Reverse Phone Lookup to Identify Unknown Callers**     | Step-by-step reverse-phone OSINT methods including search engines, social media, public records, specialized OSINT tools, and correlation.                                   | [OSINT Industries Reverse Phone Lookup Guide](https://www.osint.industries/post/how-to-use-reverse-phone-lookup-to-identify-unknown-callers?utm_source=chatgpt.com) |
 | **Phone Number OSINT: From Digits to Identity**                     | Covers what phone numbers can reveal, including carrier information, geographic indicators, messaging platforms, social-media accounts and associated identifiers.           | [State of Surveillance — Phone Number OSINT](https://stateofsurveillance.org/articles/technical/phone-number-osint-investigation/?utm_source=chatgpt.com)           |
+
+---
 
 ## Phase 6: Social Media Intelligence (SOCMINT)
 
@@ -259,6 +270,8 @@ Social Media Intelligence focuses on collecting, discovering, analyzing, and cor
 | **Birdy Edwards Lite** | Facebook SOCMINT & Network Analysis | Investigate publicly accessible Facebook profiles and map relationships | Profile intelligence, interaction/network graphs, co-interactor analysis, relationship discovery, and local face clustering | [GitHub — Birdy Edwards Lite](https://github.com/jeet-ganguly/birdy-edwards-lite) / **Free / Open Source / Local-first** |
 | **Flowsint** | OSINT Relationship Graph / SOCMINT | Correlate social-media identities and other OSINT entities into an investigative graph | Interactive relationship graphs, entity correlation, social-media data alongside domains, IPs, crypto and other OSINT sources; path/relationship analysis | [GitHub — Flowsint](https://github.com/reconurge/flowsint) / **Free / Open Source / Self-hosted** |
 
+---
+
 ## 6.1 SOCMINT — Resources & Guides
 | Resource                                                         | What It Provides                                                                                                                                                                                            | URL                                                                                                                                                                                  |
 | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -268,37 +281,41 @@ Social Media Intelligence focuses on collecting, discovering, analyzing, and cor
 | **Bellingcat – Social Network Analysis Tool Guide**              | Explains the SOCMINT network-analysis workflow: collecting data, extracting nodes and edges, analysing relationships and visualising networks.                                                              | [Social Network Analysis Guide](https://www.bellingcat.com/app/uploads/2022/08/What-is-a-Social-Network-Analysis-Tool.pdf)                                    |
 | **Bellingcat – Separating Fact from Fiction on Social Media**    | Practical verification approach for evaluating social-media claims, imagery and videos during high-volume information events.                                                                               | [Social Media Verification Guide](https://www.bellingcat.com/resources/how-tos/2023/10/26/separating-fact-from-fiction-on-social-media-in-times-of-conflict/) |
 
+---
+
 ## Phase 7: Web Intelligence (WEBINT)
 Web Intelligence focuses on discovering, collecting, analyzing, and correlating publicly accessible information from websites, search engines, web pages, online databases, archives, documents, forums, and other web-based sources.
 
 | Tool             | Type                          | Purpose                                                                                  | What It Provides                                                                                                                                           | URL / Access                                                                    |
 | ---------------- | ----------------------------- | ---------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
 | **Brave Search** | Independent Web Search Engine | Discover and cross-check publicly indexed web content using an independent search index. | Web, news, image and video search; domain, file-type, language and location filtering; advanced search operators; custom result filtering through Goggles. | [Brave Search](https://search.brave.com/) / **Free / No registration required** |
-| **YaCy** | Decentralized Web Search Engine | Discover and index web content through a decentralized search network or a locally controlled search instance. | P2P web search, local indexing, custom web crawling, domain-restricted searches, document parsing, and advanced search/filtering. Useful for independent web discovery and building investigator-controlled search indexes. | [https://yacy.net/](https://yacy.net/) / Free / Open Source |
-| **Carrot2** | Search Result Clustering | Organize large sets of search results into meaningful topic clusters to identify themes and related information. | Automatic topic clustering, visual exploration of search results, and grouping of related results to support broader web research and discovery. | [https://search.carrot2.org/](https://search.carrot2.org/) / Free / Web-based |
-| **Wiby** | Specialized Web Search Engine | Discover simple, older, and less commercially optimized web pages that may be overlooked by mainstream search engines. | Search across lightweight/classic websites, exact-term searching, `site:` filtering, date-based filters, and other search operators. Also provides a JSON search API. | [https://wiby.me/](https://wiby.me/) / Free / No registration required |
-| **Flaru** | Independent Web Search Engine | Discover and cross-check publicly accessible web content using an independent search engine. | Web and image search, domain-specific searching, search operators, and trending search terms. | [https://www.flaru.com/](https://www.flaru.com/) / Free / No registration required |
-| **SearXNG**  | Privacy-Focused Metasearch Engine | Search across multiple search services without creating a centralized user profile.  | Aggregates results from many search engines, supports filtering and customization, does not track/profile users, and can be self-hosted or accessed through public instances. | [https://docs.searxng.org/](https://docs.searxng.org/) / Free / Open Source / Self-hostable |
-| **Qwant**  | Privacy-Focused Search Engine | Perform web searches with reduced personal profiling and tracking. | Web, news, image and shopping search with privacy-oriented search practices. | [https://www.qwant.com/](https://www.qwant.com/) / Free |
-| **Startpage** | Privacy Search Engine  | Search using major search results while adding a privacy layer between the user and the search provider. | Google-powered web results, anonymous search, and Anonymous View for visiting supported result pages. | [https://www.startpage.com/](https://www.startpage.com/) / Free |
-| **DuckDuckGo**  | Privacy-Focused Search Engine  | Search the web without maintaining a personal search profile. | Web, image, video, news and map search with privacy protections and tracker-blocking features through its ecosystem. | [https://duckduckgo.com/](https://duckduckgo.com/) / Free  |
-| **Disroot SearX** | Privacy Metasearch Instance | Use a SearX-based search interface through a privacy-oriented service provider. | Aggregated search results from multiple engines without directly exposing searches to each provider in the same way as conventional search. | [https://search.disroot.org/](https://search.disroot.org/) / Free |
-| **Search.ch** | Regional Search Engine | Search Swiss web content and region-specific information. | Swiss-focused web search, directory records, phone-number lookup, maps and other regional services. | [https://search.ch/](https://search.ch/) / Free / Switzerland-focused |
-| **SpyOnWeb** | Website Ownership & Relationship Intelligence | Identify relationships between domains and discover potentially connected websites. | Correlates domains using IP addresses, nameservers, analytics identifiers, AdSense publishers, technologies, SSL certificates and historical infrastructure data. | [https://spyonweb.net/](https://spyonweb.net/) / Free / Registration Required for monitoring |
-| **Wappalyzer** | Website Technology Intelligence | Identify the technologies and services used by a website. | Detects CMS platforms, frameworks, programming languages, analytics, advertising technologies, e-commerce platforms, hosting/CDN services and other technologies used by a website. | [https://www.wappalyzer.com/](https://www.wappalyzer.com/) / Freemium / Registration Required |
-| **BuiltWith** | Website Technology Intelligence | Identify and investigate the technologies used by websites and track technology adoption over time. | Technology profiling, CMS/framework detection, hosting and analytics identification, technology usage lists, historical technology data, market-share information, and technology-based domain discovery. | [https://builtwith.com/](https://builtwith.com/) / Freemium / Paid |
-| **urlscan.io** | Website & Web Activity Analysis | Observe and investigate the behavior of websites and URLs during browser-based scans. | Redirect chains, HTTP requests, domains contacted, IP addresses, certificates, cookies, page metadata, screenshots, DOM information, JavaScript/resources and historical scan results. | [https://urlscan.io/](https://urlscan.io/) / Free / Registration Required for submissions |
-| Similarweb       | Website Traffic Intelligence | Research website traffic and audience characteristics.    | Traffic estimates, engagement, referrals, audience and competitor information. | [Similarweb](https://www.similarweb.com/) — Freemium / Paid |
-| HypeStat         | Website Statistics           | Gather publicly available website statistics.             | Traffic estimates, hosting, technology and website statistics.                 | [HypeStat](https://www.hypestat.com/) — Free                |
-| StatsCrop        | Website Intelligence         | Investigate website statistics and technical information. | Traffic estimates, technologies, hosting, DNS and website metadata.            | [StatsCrop](https://www.statscrop.com/) — Free              |
-| Website Informer | Website Intelligence         | Research website information and relationships.           | Domain, traffic, hosting and related website information.                      | [Website Informer](https://website.informer.com/) — Free    |
-| **OutWit**                       | Web Scraping & Content Extraction | Extract and organize structured information from websites and online sources.                    | Web-page exploration, structured data extraction, lists, tables, links, media and contact information; supports custom scraping workflows. | [OutWit](https://www.outwit.com/) — Freemium / Paid                                                                           |
-| **Photon**                       | OSINT Web Crawler                 | Crawl websites and automatically extract investigation-relevant information.                     | URLs, internal/external links, files, scripts, endpoints, emails, custom regex matches, DNS/subdomains and archived URLs.                  | [Photon](https://github.com/s0md3v/Photon) — Free / Open Source / Legacy                                                      |
-| **Email-Crawler-Lead-Generator** | Specialized Web Crawler           | Crawl a website and collect publicly exposed email addresses.                                    | Visits pages across a domain, extracts email addresses and saves results to CSV.                                                           | [Email-Crawler-Lead-Generator](https://github.com/superryeti/Email-Crawler-Lead-Generator) — Free / Open Source               |
-| **Web Scraper**                  | Browser-based Web Scraper         | Extract structured information from webpages without writing a crawler.                          | Point-and-click sitemap creation, page navigation and structured extraction from modern websites.                                          | [Web Scraper](https://webscraper.io/) — Freemium                                                                              |
-| **Instant Data Scraper**         | Browser-based Data Extraction     | Quickly extract tabular or list-based information from webpages.                                 | Automatic detection of tables/lists and export of extracted data.                                                                          | [Instant Data Scraper](https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah) — Free |
-| WebRecon | Web Reconnaissance & Crawling | Crawl and analyze websites to collect and correlate publicly exposed information during web reconnaissance. | Configurable web crawling, email and username extraction, social-media identification, image metadata extraction, technology detection, DNS and subdomain discovery, document/file discovery, relationship graphs, source tracking, and JSON/HTML/CSV reporting. | [WebRecon](https://github.com/techenthusiast167/WebRecon) — Free / Open Source |
-| Darkweb_Crawler | Dark Web Intelligence & Crawling | Collect and analyze information from dark-web sources for authorized research and intelligence investigations. | Dark-web crawling, content collection, intelligence extraction and analysis capabilities designed for research and authorized investigations. | [https://github.com/techenthusiast167/DARKWEB_CRAWLER](https://github.com/techenthusiast167/DARKWEB_CRAWLER) — Free / Open Source |
+| **YaCy** | Decentralized Web Search Engine | Discover and index web content through a decentralized search network or a locally controlled search instance. | P2P web search, local indexing, custom web crawling, domain-restricted searches, document parsing, and advanced search/filtering. Useful for independent web discovery and building investigator-controlled search indexes. | [YaCy](https://yacy.net/) / Free / Open Source |
+| **Carrot2** | Search Result Clustering | Organize large sets of search results into meaningful topic clusters to identify themes and related information. | Automatic topic clustering, visual exploration of search results, and grouping of related results to support broader web research and discovery. | [Carrot2](https://search.carrot2.org/) / Free / Web-based |
+| **Wiby** | Specialized Web Search Engine | Discover simple, older, and less commercially optimized web pages that may be overlooked by mainstream search engines. | Search across lightweight/classic websites, exact-term searching, `site:` filtering, date-based filters, and other search operators. Also provides a JSON search API. | [Wiby](https://wiby.me/) / Free / No registration required |
+| **Flaru** | Independent Web Search Engine | Discover and cross-check publicly accessible web content using an independent search engine. | Web and image search, domain-specific searching, search operators, and trending search terms. | [Flaru](https://www.flaru.com/) / Free / No registration required |
+| **SearXNG**  | Privacy-Focused Metasearch Engine | Search across multiple search services without creating a centralized user profile.  | Aggregates results from many search engines, supports filtering and customization, does not track/profile users, and can be self-hosted or accessed through public instances. | [SearXNG](https://docs.searxng.org/) / Free / Open Source / Self-hostable |
+| **Qwant**  | Privacy-Focused Search Engine | Perform web searches with reduced personal profiling and tracking. | Web, news, image and shopping search with privacy-oriented search practices. | [Qwant](https://www.qwant.com/) / Free |
+| **Startpage** | Privacy Search Engine  | Search using major search results while adding a privacy layer between the user and the search provider. | Google-powered web results, anonymous search, and Anonymous View for visiting supported result pages. | [Startpage](https://www.startpage.com/) / Free |
+| **DuckDuckGo**  | Privacy-Focused Search Engine  | Search the web without maintaining a personal search profile. | Web, image, video, news and map search with privacy protections and tracker-blocking features through its ecosystem. | [DuckDuckGo](https://duckduckgo.com/) / Free  |
+| **Disroot SearX** | Privacy Metasearch Instance | Use a SearX-based search interface through a privacy-oriented service provider. | Aggregated search results from multiple engines without directly exposing searches to each provider in the same way as conventional search. | [Disroot SearX](https://search.disroot.org/) / Free |
+| **Search.ch** | Regional Search Engine | Search Swiss web content and region-specific information. | Swiss-focused web search, directory records, phone-number lookup, maps and other regional services. | [Search.ch](https://search.ch/) / Free / Switzerland-focused |
+| **SpyOnWeb** | Website Ownership & Relationship Intelligence | Identify relationships between domains and discover potentially connected websites. | Correlates domains using IP addresses, nameservers, analytics identifiers, AdSense publishers, technologies, SSL certificates and historical infrastructure data. | [SpyOnWeb](https://spyonweb.net/) / Free / Registration Required for monitoring |
+| **Wappalyzer** | Website Technology Intelligence | Identify the technologies and services used by a website. | Detects CMS platforms, frameworks, programming languages, analytics, advertising technologies, e-commerce platforms, hosting/CDN services and other technologies used by a website. | [Wappalyzer](https://www.wappalyzer.com/) / Freemium / Registration Required |
+| **BuiltWith** | Website Technology Intelligence | Identify and investigate the technologies used by websites and track technology adoption over time. | Technology profiling, CMS/framework detection, hosting and analytics identification, technology usage lists, historical technology data, market-share information, and technology-based domain discovery. | [BuiltWith](https://builtwith.com/) / Freemium / Paid |
+| **urlscan.io** | Website & Web Activity Analysis | Observe and investigate the behavior of websites and URLs during browser-based scans. | Redirect chains, HTTP requests, domains contacted, IP addresses, certificates, cookies, page metadata, screenshots, DOM information, JavaScript/resources and historical scan results. | [urlscan.io](https://urlscan.io/) / Free / Registration Required for submissions |
+| **Similarweb**       | Website Traffic Intelligence | Research website traffic and audience characteristics.    | Traffic estimates, engagement, referrals, audience and competitor information. | [Similarweb](https://www.similarweb.com/) — Freemium / Paid |
+| **HypeStat**         | Website Statistics           | Gather publicly available website statistics.             | Traffic estimates, hosting, technology and website statistics.                 | [HypeStat](https://www.hypestat.com/) — Free                |
+| **StatsCrop**        | Website Intelligence         | Investigate website statistics and technical information. | Traffic estimates, technologies, hosting, DNS and website metadata.            | [StatsCrop](https://www.statscrop.com/) — Free              |
+| **Website Informer** | Website Intelligence         | Research website information and relationships.           | Domain, traffic, hosting and related website information.                      | [Website Informer](https://website.informer.com/) — Free    |
+| **OutWit**   | Web Scraping & Content Extraction | Extract and organize structured information from websites and online sources.                    | Web-page exploration, structured data extraction, lists, tables, links, media and contact information; supports custom scraping workflows. | [OutWit](https://www.outwit.com/)  Freemium / Paid |
+| **Photon**  | OSINT Web Crawler  | Crawl websites and automatically extract investigation-relevant information.                     | URLs, internal/external links, files, scripts, endpoints, emails, custom regex matches, DNS/subdomains and archived URLs.    | [Photon](https://github.com/s0md3v/Photon)  Free / Open Source / Legacy |
+| **Email-Crawler-Lead-Generator** | Specialized Web Crawler | Crawl a website and collect publicly exposed email addresses.  | Visits pages across a domain, extracts email addresses and saves results to CSV.  | [Email-Crawler-Lead-Generator](https://github.com/superryeti/Email-Crawler-Lead-Generator)  Free / Open Source     |
+| **Web Scraper**   | Browser-based Web Scraper  | Extract structured information from webpages without writing a crawler. | Point-and-click sitemap creation, page navigation and structured extraction from modern websites. | [Web Scraper](https://webscraper.io/)  Freemium |
+| **Instant Data Scraper**    | Browser-based Data Extraction     | Quickly extract tabular or list-based information from webpages. | Automatic detection of tables/lists and export of extracted data.  | [Instant Data Scraper](https://chromewebstore.google.com/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah)  Free |
+| WebRecon | Web Reconnaissance & Crawling | Crawl and analyze websites to collect and correlate publicly exposed information during web reconnaissance. | Configurable web crawling, email and username extraction, social-media identification, image metadata extraction, technology detection, DNS and subdomain discovery, document/file discovery, relationship graphs, source tracking, and JSON/HTML/CSV reporting. | [WebRecon](https://github.com/techenthusiast167/WebRecon)  Free / Open Source |
+| Darkweb_Crawler | Dark Web Intelligence & Crawling | Collect and analyze information from dark-web sources for authorized research and intelligence investigations. | Dark-web crawling, content collection, intelligence extraction and analysis capabilities designed for research and authorized investigations. | [Darkweb_Crawler](https://github.com/techenthusiast167/DARKWEB_CRAWLER)  Free / Open Source |
+
+---
 
 ## Phase 8: DOMAIN INTELLIGENCE
 Domain Intelligence focuses on investigating domain registration, DNS infrastructure, historical resolution data, subdomains, certificates, IP/ASN relationships, and connections between domains and internet infrastructure.
@@ -331,6 +348,8 @@ Domain Intelligence focuses on investigating domain registration, DNS infrastruc
 | EURid       | Regional Domain Registry | Investigate `.eu` domains.           | `.eu` registration and domain information.                     | [EURid](https://eurid.eu/en/)  Free   |
 | DENIC       | National Domain Registry | Investigate German `.de` domains.    | Official `.de` domain registration and WHOIS information.      | [DENIC](https://www.denic.de/)  Free  |
 | SK-NIC      | National Domain Registry | Investigate Slovak `.sk` domains.    | Official `.sk` WHOIS and registry information.                 | [SK-NIC](https://sk-nic.sk/)  Free   |
+
+---
 
 ## Phase 9: IP & Infrastructure Intelligence
 
@@ -365,6 +384,7 @@ IP & Infrastructure Intelligence focuses on investigating IP addresses, network 
 | **TCP/IP Utils** | Network Diagnostic Utilities  | Perform common IP/network investigations. | DNS, IP, traceroute and network diagnostic utilities. | [TCP/IP Utils](http://www.tcpiputils.com/)  Free  |
 | **SynapsInt**  | OSINT Infrastructure Intelligence  | Correlate technical indicators and infrastructure during investigations. | Relationships between IPs, domains, DNS and other technical indicators.  | [SynapsInt](https://synapsint.com/)  Free / Web-based  |
 
+---
 
 ## Phase 10: IMAGE INTELLIGENCE
 
@@ -406,6 +426,8 @@ Image Intelligence focuses on discovering, identifying, verifying, contextualizi
 | **SkyscraperPage**    | Building Identification Resource       | Identify and research skyscrapers and high-rise structures. | Building diagrams, locations, heights and architectural information. | [SkyscraperPage](https://skyscraperpage.com/) **Free**   |
 | **GIS Geography – Satellite Imagery Sources** | Research Guide | Help investigators discover satellite imagery sources for visual/geolocation investigations. | A curated list of satellite imagery providers and datasets. | [GIS Geography](https://gisgeography.com/free-satellite-imagery-data-list/) **Free** |
 
+---
+
 ## Phase 11: Video Intelligence
 
 Video Intelligence focuses on investigating, verifying, analyzing, locating, and extracting intelligence from video content, including its source, metadata, frames, captions, location, timing, and possible manipulation.
@@ -426,6 +448,8 @@ Video Intelligence focuses on investigating, verifying, analyzing, locating, and
 | **The Webcam-Network** | Webcam Directory  | Discover live webcams from different geographic locations.    | Webcam listings and live visual feeds. | [The Webcam-Network](http://www.the-webcam-network.com/) **Free / Availability varies** |
 | **AirportWebcams.net** | Airport Webcam Directory | Find airport webcams for visual verification and monitoring.  | Live airport camera feeds from airports around the world. | [Airport Webcams](https://airportwebcams.net/) **Free / Availability varies**  |
 | **TV News Archive**    | Historical Video Archive | Search archived television news footage.  | Historical television broadcasts that can provide older visual evidence and event coverage. | [Internet Archive TV News Archive](https://archive.org/details/tv) **Free** |
+
+--- 
 
 ## Phase 12: News & Media Intelligence
 
@@ -458,6 +482,8 @@ News & Media Intelligence focuses on discovering, monitoring, analysing, verifyi
 | **Snopes**  | Fact-Checking Database  | Investigate rumours, viral claims, misinformation and internet hoaxes.   | Fact checks, source analysis and historical claim investigations.  | [Snopes](https://www.snopes.com/)  **Free**  |
 | **FactCheck.org**  | Fact-Checking Organisation | Research claims made in U.S. political and public discourse. | Fact checks, source-based explanations and claim investigations.  | [FactCheck.org](https://www.factcheck.org/) **Free**  |
 | **StopFake** | Fact-Checking Organisation | Investigate misinformation and false narratives, particularly involving Ukraine and regional information environments. | Fact checks, misinformation investigations and source analysis. | [StopFake](https://www.stopfake.org/en/) **Free**  |
+
+---
 
 ## Phase 13: Public Records
 
@@ -493,6 +519,8 @@ Public records are a core source of verifiable information for OSINT investigati
 | **ICIJ Offshore Leaks Database** | Investigative Database  | Investigate offshore companies, trusts and financial relationships | Offshore entities, companies, trusts, foundations, intermediaries, officers, addresses and relationships across multiple leak datasets | [ICIJ Offshore Leaks Database](https://offshoreleaks.icij.org/) **Free**  |
 | **Open Ownership**  | Beneficial Ownership Database | Research corporate ownership and beneficial ownership information  | Beneficial ownership data and information about corporate ownership structures where available | [Open Ownership](https://www.openownership.org/) **Free / Data Access Varies** |
 
+---
+
 ## Phase 13: Corporate Intelligence
 
 Corporate Intelligence focuses on understanding companies as entities and networks — including their ownership structures, corporate relationships, financial profiles, investors, subsidiaries, directors, and cross-border connections.
@@ -506,6 +534,8 @@ Corporate Intelligence focuses on understanding companies as entities and networ
 | **Kyckr**    | Corporate Data Platform   | Retrieve and normalize company information from multiple jurisdictions  | Company profiles, directors, shareholders, UBO information where available, official filings, registry data and corporate identifiers. | [Kyckr](https://kyckr.com/) **Paid** |
 | **Crunchbase** | Private Company Intelligence | Investigate private companies, startups and their business networks  | Funding rounds, investors, key people, acquisitions, company history, industry information and business relationships | [Crunchbase](https://www.crunchbase.com/) **Free / Paid Features**  |
 
+---
+
 ## 13.1 Corperate Intelligence - Resources & Guides
 | Resources                                                      | Type                          | Purpose                                                                              | What It Provides                                                                                                                                                                                             | URL / Access                                                                                                                                        |
 | --------------------------------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -516,6 +546,8 @@ Corporate Intelligence focuses on understanding companies as entities and networ
 | **FORT Intelligence – OSINT Investigations for Business** | Practical Guide               | Understand how OSINT is applied to corporate investigations and due diligence        | Business OSINT methodology, public-source research, corporate due diligence and investigative techniques                                                                                                     | [OSINT Investigations for Business](https://www.fortintel.com/blog/osint-investigations-business-guide) **Free**                                  |
 | **ACFE – Fraud Investigation & Examination Resources**    | Professional Resource Library | Develop investigative skills relevant to corporate fraud and internal investigations | Investigation methodology, fraud examination, interviewing, financial statement fraud, corporate investigations and investigative case material                                                              | [ACFE Fraud Investigation & Examination](https://www.acfe.com/fraud-resources/fraud-investigation-and-examination) **Free / Some Member Content** |
 | **Bellingcat Online Investigation Toolkit**               | Investigation Toolkit         | Build broader OSINT investigation skills applicable to corporate research            | Search, web research, verification, mapping, social-media research, archives and other investigative techniques                                                                                              | [Bellingcat Toolkit](https://bellingcat.gitbook.io/toolkit) **Free**                                                                              |
+
+---
 
 ## Phase 14: Financial Intelligence (FININT)
 
@@ -537,6 +569,8 @@ Financial Intelligence focuses on researching and analyzing financial institutio
 | **ACFE Fraud Resources** | Fraud Investigation Resource   | Research financial fraud investigation techniques  | Fraud schemes, investigation resources, fraud indicators, examination techniques and investigative material | [ACFE Fraud Resources](https://www.acfe.com/fraud-resources) **Free / Some Member Content** |
 | **BINLIST**  | Payment Identifier Reference | Identify payment-card issuing information from a BIN/IIN | Card-network, issuer, country and card-type information associated with supported BIN/IIN ranges | [BINLIST](https://binlist.net/) **Free / API Available** |
 | **OANDA Currency Converter** | FX Reference | Research historical and current currency conversions | Exchange rates and historical currency conversion by date. | [OANDA Currency Converter](https://www.oanda.com/currency-converter/) **Free / Paid Features** |
+
+---
 
 ## Phase 15: Cryptocurrency Intelligence
 
@@ -562,6 +596,8 @@ Cryptocurrency Intelligence focuses on researching blockchain transactions, wall
 | **Blockonomics Wallet Watcher** | Wallet Monitoring  | Monitor known Bitcoin addresses for new activity  | Balance changes, incoming/outgoing transactions, email notifications, wallet labels and payment history  | [Blockonomics Wallet Watcher](https://www.blockonomics.co/views/wallet-watcher.html) **Free / Paid Features** |
 | **Coinwink** | Cryptocurrency Alerting | Monitor cryptocurrency prices and selected market events  | Email, Telegram and SMS alerts for cryptocurrency prices and market movements | [Coinwink](https://coinwink.com/) **Free / Paid Features**  |
 
+---
+
 ## 15.1  Cryptocurrency Intelligence — Resources & Guides
 | Resources                                                                        | Type                    | Purpose                                                                              | What It Provides                                                                                                                               | URL / Access                                                                                                                                                                             |
 | ---------------------------------------------------------------------------- | ----------------------- | ------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -578,6 +614,8 @@ Cryptocurrency Intelligence focuses on researching blockchain transactions, wall
 Transportation intelligence investigations often begin with a small piece of information such as an Aircraft registration, flight number, vessel name, IMO/MMSI number, vehicle identification number (VIN), license plate, train number, route, airport, seaport, railway station, transportation company, or other transportation-related identifier.
 
 The starting point helps determine the appropriate transportation domain, research path, and resources to use.
+
+---
 
 ## Phase 1: Aviation Intelligence
 
@@ -616,6 +654,8 @@ Aviation intelligence focuses on researching aircraft, flights, operators, airpo
 | **Air Force Technology** | Military Aircraft / Operator / System | Research military aviation platforms and operators | Aircraft profiles, military aviation systems, defence-industry information and news  | [Air Force Technology](https://www.airforce-technology.com/) **Free** |
 | **LiveATC**   | Airport / ATC Frequency    | Research aviation radio communications   | Live and archived air-traffic-control audio from participating airports | [LiveATC](https://www.liveatc.net/) **Free / Paid Features** |
 
+---
+
 ## 1.1 Aviation OSINT Resources & Guides
 | Tool                                    | Starting Point                      | Purpose                                         | What It Provides                                                                                                        | URL                                                                                                          |
 | --------------------------------------- | ----------------------------------- | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
@@ -624,6 +664,8 @@ Aviation intelligence focuses on researching aircraft, flights, operators, airpo
 | **Signal & Shadow – Aviation OSINT**    | Aircraft Registration / Tail Number | Learn aircraft movement attribution             | Guidance on connecting registration numbers, flight-tracking data and ownership information                             | [Aviation OSINT](https://signalandshadow.io/p/aviation-osint-flight-tracking) **Free**                     |
 | **OSINT Aviation Start.me**             | Aviation Research                   | Discover aviation-focused OSINT resources       | Curated aviation websites, databases, tracking platforms and research resources                                         | [19 Aviation – Start.me](https://start.me/p/Nx1g5M/19-aviation) **Free**                                   |
 | **OpenSky Data & Tools**                | ADS-B / Research                    | Learn to work with aviation tracking datasets   | API documentation, historical datasets, aircraft metadata, Python/R/MATLAB tools and aviation research datasets         | [OpenSky Data](https://opensky-network.org/data) **Free / Research Access**                                |
+
+--- 
 
 ## Phase 2: Maritime Intelligence
 
@@ -653,6 +695,7 @@ Maritime intelligence focuses on researching vessels, ships, maritime companies,
 | **Marine Cadastre / AccessAIS** | U.S. Waters / Vessel / Date Range     | Analyze historical AIS activity in U.S. waters.  | AIS vessel-traffic data that can be queried geographically and by time period. | [NOAA MarineCadastre](https://marinecadastre.gov/ais/)  |
 | **Submarine Cable Map** | Cable / Landing Point / Location | Research undersea telecommunications infrastructure. | Global submarine cable routes, landing points and cable-system information. | [Submarine Cable Map](https://www.submarinecablemap.com/)  |
 
+---
 
 ## 2.1 Maritime OSINT Guides & Methodologies
 | Resource                                                        | Starting Point                  | Purpose                                                      | What It Provides                                                              | URL                                                                                                                                                       |
@@ -664,6 +707,8 @@ Maritime intelligence focuses on researching vessels, ships, maritime companies,
 | Tracking Boats and Planes    | Vessel / Aircraft               | Learn practical tracking techniques.     | Research material covering tracking vessels and aircraft using open sources.  | [Tracking Boats and Planes](https://drive.google.com/file/d/1oNFQRq3RYg5ekAs_HPnEU6ap9hMKIb1Z/)  |
 | Tracking Cargo and Ships | Cargo / Vessel      | Learn how to investigate shipping and cargo movements.       | Practical research material covering cargo and vessel tracking.  | [Tracking Cargo and Ships](https://drive.google.com/file/d/1pPE9GoyY0xik_R7sg9-Gq6CYo-FRD6Ea/view)   |
 | Learning Customs Language to Track Shipments  | Shipment / Customs Data  | Understand customs terminology used in shipment research.    | Research material for interpreting customs and shipping information. | [Learning Customs Language to Track Shipments](https://drive.google.com/file/d/1tXl_UOtj0wnzq-w5aQ_UqeTnWivayySb/view)  |
+
+---
 
 ## Phase 3: Vehicle Intelligence
 
@@ -690,6 +735,8 @@ Vehicles can provide strong investigative leads through registration numbers, VI
 | **CarNet.AI**  | Vehicle image         | Vehicle make/model recognition | AI-based identification of vehicle make and model from images; available as an API.   | [https://carnet.ai](https://carnet.ai)   |                          |
 | **Teoalida – India Vehicle Database** | Vehicle make/model    | Vehicle specification research | Technical specifications and vehicle model information for Indian-market vehicles.    | [https://www.teoalida.com/cardatabase/india/](https://www.teoalida.com/cardatabase/india/) |
 
+---
+
 ## 3.1 Vehicle Intelligence Resources & Methodologies
 
 These resources focus on how to investigate vehicles using OSINT, including licence plates, VINs, vehicle identification, registration research, image-based identification, and investigative workflows.
@@ -705,12 +752,16 @@ These resources focus on how to investigate vehicles using OSINT, including lice
 | **SANS – Geolocation Resources for OSINT Investigations**   | Vehicle image / location  | Vehicle and geolocation research   | Includes vehicle-specific resources such as CarNet and World License Plates alongside geolocation and street-level imagery resources. | [SANS](https://www.sans.org/blog/geolocation-resources-for-osint-investigations) |
 | **How to Track Vehicles Through Open Source Investigations**   | Vehicle / plate / location    | Vehicle tracking methodology   | Covers collection, analysis, verification, geolocation and timeline-building when investigating vehicle movements.  | [knowlesys.com](https://knowlesys.com/osint/how_to_track_vehicles_through_open_source_investigations.html)  |
 
+---
+
 ## 3.2 Vehicle Forensics / Connected Vehicle Resources
 | Resource                                                            | Starting Point                         | Purpose                      | What It Provides                                                                                                     | URL                                                                                                                                                                                                                            |
 | ------------------------------------------------------------------- | -------------------------------------- | ---------------------------- | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Vehicle Forensics: A Practical Guide – Magnet Forensics**         | Connected vehicle / infotainment / EDR | Vehicle digital forensics    | Practical overview of EDR, infotainment and telematics evidence, preservation, acquisition and timeline correlation. | [magnetforensics.com](https://www.magnetforensics.com/blog/vehicle-forensics-a-practical-guide/) |
 | **Digital Investigations Connected Vehicles – College of Policing** | Connected vehicle  | Investigative training  | Covers vehicle telematics, infotainment systems, connected-vehicle data and investigative opportunities.  | [college.police.uk](https://www.college.police.uk/career-learning/courses/digital-investigations-connected-vehicles)  |
 | **Automotive Forensics & Vehicle Infotainment Systems**   | Vehicle digital evidence   | Automotive forensic training | Covers ECUs, infotainment, telematics, EDR, CAN bus, GPS, paired devices and forensic acquisition.  | [datastatresearch.org](https://datastatresearch.org/courses/training-course-on-automotive-forensics-and-vehicle-infotainment-systems) |
+
+---
 
 ## Phase 4: Railway Intelligence
 
@@ -754,6 +805,8 @@ Railway investigations can begin with a railway line, station, train, route, tim
 | **European Station Maps & Floor Plans** | Station / image / floor plan      | Station identification      | Station maps and floor plans useful for identifying railway stations and understanding their internal layout.  | [European Station Maps & Floor Plans](https://www.nsinternational.com/en/stations/station-maps-floor-plan) |
 | **Railway Research** | Railway / historical subject | Railway research   | Research-oriented railway material covering railway systems, technology and history. | [Railway Research](http://www.railway-research.org) |
 
+---
+
 ## 4.1 Railway Intelligence & Research Resources
 | Resource                         | Starting Point        | Purpose                         | What It Provides               | URL                |
 | -------------------------------- | --------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
@@ -761,6 +814,8 @@ Railway investigations can begin with a railway line, station, train, route, tim
 | **OpenRailwayMap Documentation** | Railway mapping       | Railway infrastructure research | Documentation and background for understanding railway infrastructure displayed through OpenRailwayMap. | [OpenRailwayMap Documentation](https://wiki.openstreetmap.org/wiki/OpenRailwayMap) |
 | **GTFS Documentation**           | Transit dataset       | Transport-data research         | Documentation for interpreting structured transit schedules, routes, stops and service data.   | [GTFS Documentation](https://gtfs.org/documentation/schedule/)                     |
 | **Transitland Documentation**    | Transit data          | Transport-data research         | Documentation for querying and working with aggregated public-transit data. | [Transitland Documentation](https://www.transit.land/documentation/)    |
+
+---
 
 ## 4.2 Nigeria Railway Intelligence
 I think Nigeria deserves its own phase because this repository is intended to be genuinely useful to investigators working in different countries, and the Nigerian railway system has several official sources that shouldn't get lost inside a generic global list.
@@ -771,6 +826,8 @@ I think Nigeria deserves its own phase because this repository is intended to be
 | **NRC Lagos District**    | Lagos railway / station   | Railway network research  | Information on Lagos railway operations, stations, passenger services and freight connections.     | [https://nrc.gov.ng/lagos-district/](https://nrc.gov.ng/lagos-district/)     |
 | **Federal Ministry of Transportation – Rail Transport Services** | Nigerian railway policy / infrastructure | Government railway intelligence | Information on railway infrastructure, policy, development, regulation and transport projects.     | [transportation.gov.ng](https://transportation.gov.ng/new/ova_dep/rail-transport-services-2/) |
 | **NRC News & Announcements**    | Nigerian railway incident / event        | Historical/event research       | Official railway announcements, operational updates and incident-related information.   | [https://nrc.gov.ng/news/](https://nrc.gov.ng/news/)     |
+
+---
 
 ## Phase 6: Public & Urban Transportation Intelligence
 
@@ -790,6 +847,8 @@ Public and urban transportation intelligence focuses on buses, trams, metros, ur
 | **UITP Data & Statistics**        | City / transport mode      | Research urban public-transport systems | Ridership, metro, tram, light rail, bus, trolleybus, waterborne transport and urban-mobility statistics | [UITP Data & Statistics](https://www.uitp.org/knowledge-research/data/?utm_source=chatgpt.com)                  |
 | **OECD Passenger Transport Data** | Country / transport system | Compare passenger-transport activity  | Statistical information on passenger transport and mobility | [OECD Passenger Transport Data](https://data.oecd.org/transport/passenger-transport.htm) |
 | **WikiRoutes** | City / transport network   | Examine urban transit coverage    | Routes, stops, directions and schedules across cities   | [WikiRoutes](https://wikiroutes.info/)  |
+
+---
 
 ## 6.1 Public Transportation OSINT Resources & Methodologies
 | Resource           | Starting Point                 | Purpose                                          | What It Provides                                                                                                                    | URL                                                                                                                                                          |
@@ -978,4 +1037,271 @@ This final phase contain **learning resources and investigative methodology**
 | OpenTopography Resources                             | Terrain analysis        | Learn topographic analysis           | Training, tools and topography resources                                      | [OpenTopography Resources](https://www.opentopography.org/resources)                             |
 
 ---
+
+# Archive & Historical Research
+
+Archive & Historical Research focuses on recovering information from the past that may no longer be available through the modern web. It covers historical newspapers, archival collections, old publications, institutional records, genealogy, historical case material and other sources that can help investigators reconstruct people, events, organizations and timelines.
+
+## Phase 1: Archive Discovery & Finding Aids
+This phase is about finding the archive or collection where relevant historical material is held.
+| Tool / Resources                 | Starting Point                            | Purpose                                                    | What It Provides                                                                 | URL                                                             |
+| ---------------------- | ----------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| **Wayback Machine** | Website URL, domain, or page | Investigate how a website or web page looked and what it contained in the past | Archived snapshots, historical page versions, old URLs, timestamps, and changes to websites over time | [Wayback Machine](https://web.archive.org/) |
+| Archives Portal Europe | Person, organization, event, location     | Discover European archival collections                     | Finding aids, archival institutions, collections and descriptions across Europe  | [Archives Portal Europe](https://www.archivesportaleurope.net/) |
+| ArchiveGrid            | Person, organization, subject, collection | Locate archival collections held by libraries and archives | Collection descriptions, archival holdings and institutions holding the material | [ArchiveGrid](https://researchworks.oclc.org/archivegrid/)      |
+| Archives Hub           | Person, organization, subject, location   | Discover UK archival collections                           | Descriptions of archival collections from UK institutions                        | [Archives Hub](https://archiveshub.jisc.ac.uk/)                 |
+| A-Z Library Databases  | Research topic                            | Discover specialized research databases                    | Directory of subject-specific academic and research databases                    | [A-Z Library Databases](http://guides.uflib.ufl.edu/az.php)     |
+
+---
+
+## Phase 2: Historical Newspapers & Periodicals
+This phase focuses specifically on newspapers and periodicals as historical evidence.
+| Tool                          | Starting Point                          | Purpose                                  | What It Provides                                                    | URL                                                                            |
+| ----------------------------- | --------------------------------------- | ---------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| East View Newspaper Resources | Country, publication, historical period | Find international newspaper collections | Historical and current newspaper collections from different regions | [East View Newspaper Resources](https://www.eastview.com/resources/newspapers) |
+| NewspaperIndex                | Country, city, newspaper                | Locate historical newspaper sources      | Directory of newspapers and newspaper archives                      | [NewspaperIndex](http://www.newspaperindex.com/)                               |
+| NewspaperMap                  | Location, newspaper                     | Discover newspapers geographically       | Map-based newspaper discovery                                       | [NewspaperMap](http://newspapermap.com/)                                       |
+| W3Newspapers                  | Country, publication                    | Locate newspapers by country             | International newspaper directory                                   | [W3Newspapers](https://www.w3newspapers.com/)                                  |
+| ABYZ News Links               | Country, region, publication            | Find newspapers and news archives        | International newspaper directory organized by geography            | [ABYZ News Links](http://www.abyznewslinks.com/)                               |
+| Newspapers.com                | Publication, person, event, date        | Search historical newspapers             | Digitized newspaper pages and historical articles                   | [Newspapers.com](https://www.newspapers.com/)                                  |
+
+---
+
+## Phase 3: Nigerian Historical Archives
+
+This phase gives the repository a dedicated place for Nigerian historical material, particularly newspapers, books, government publications and other primary sources.
+| Tool            | Starting Point                                 | Purpose                                | What It Provides                                                            | URL                                             |
+| --------------- | ---------------------------------------------- | -------------------------------------- | --------------------------------------------------------------------------- | ----------------------------------------------- |
+| Archivi.ng      | Nigerian person, event, organization, date     | Search historical Nigerian newspapers  | Digitized Nigerian newspapers, magazines and searchable historical material | [Archivi.ng](https://archivi.ng/)               |
+| PublicDomain.ng | Nigerian historical topic, person, publication | Search Nigeria's public-domain history | Digitized Nigerian books, newspapers, images and government publications    | [PublicDomain.ng](https://www.publicdomain.ng/) |
+
+---
+
+## Phase 4: Historical Books & Academic Publications
+This phase is for published historical material rather than archival finding aids.
+
+| Tool                 | Starting Point                         | Purpose                              | What It Provides                                                         | URL                                               |
+| -------------------- | -------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------- |
+| Open Library         | Book title, author, subject            | Locate historical books and editions | Bibliographic records, editions and digitized books                      | [Open Library](https://openlibrary.org/)          |
+| Project Gutenberg    | Author, book, historical topic         | Access public-domain books           | Free digital editions of historical and literary works                   | [Project Gutenberg](https://www.gutenberg.org/)   |
+| BASE                 | Research topic, author, publication    | Search academic repositories         | Scholarly publications and institutional research documents              | [BASE](https://www.base-search.net/)              |
+| Cambridge Core       | Author, topic, publication             | Research academic books and journals | Scholarly books, journals and historical research                        | [Cambridge Core](https://www.cambridge.org/core/) |
+| CERN Document Server | Research topic, organization, document | Search institutional publications    | Research papers, reports, conference documents and archived publications | [CERN Document Server](https://cds.cern.ch/)      |
+
+---
+
+## Phase 5: Government & Institutional Historical Records
+
+This phase is for official historical records and institutional collections rather than general archive discovery.
+| Tool                                    | Starting Point                          | Purpose                                 | What It Provides                                                                  | URL                                                                                                                            |
+| --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| IVeS Registers                          | Person, municipality, historical record | Search Slovak historical registers      | Archival books, municipal records, war-grave information and historical registers | [IVeS Registers](https://ives.minv.sk/)                                                                                        |
+| Slovakiana                              | Slovak historical topic, person, place  | Explore Slovak cultural heritage        | Digitized historical and cultural materials                                       | [Slovakiana](https://www.slovakiana.sk/)                                                                                       |
+| DIKDA                                   | Book, newspaper, manuscript, topic      | Search digitized Slovak collections     | Digitized books, newspapers, journals and manuscripts                             | [DIKDA](https://dikda.snk.sk/)                                                                                                 |
+| European Commission Historical Archives | European institution, policy, event     | Research European institutional history | Historical EU documents, archives and specialist databases                        | [EU Historical Archives](https://commission.europa.eu/about/departments-and-executive-agencies/historical-archives-service_en) |
+
+---
+
+## Phase 6: Genealogy & Historical Identity
+
+This phase focuses on reconstructing historical people and family relationships.
+| Tool            | Starting Point                    | Purpose                                | What It Provides                                          | URL                                                  |
+| --------------- | --------------------------------- | -------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------- |
+| Cyndi's List    | Country, surname, genealogy topic | Discover genealogy resources           | Large directory of genealogy and family-history resources | [Cyndi's List](https://www.cyndislist.com/)          |
+| FindMyPast      | Name, family, location            | Research historical identities         | Census, parish, civil and family-history records          | [FindMyPast](https://www.findmypast.com/)            |
+| FreeBMD         | Name, birth, marriage, death      | Search historical UK civil records     | Birth, marriage and death indexes                         | [FreeBMD](https://www.freebmd.org.uk/)               |
+| The Genealogist | Person, family, location          | Research British family history        | Census, parish, electoral and historical records          | [The Genealogist](https://www.thegenealogist.co.uk/) |
+| Genealogy.com   | Person, surname, family           | Research family history                | Genealogy databases and historical family information     | [Genealogy.com](https://www.genealogy.com/)          |
+| Forebears       | Surname, first name, location     | Investigate historical names           | Name meanings, distribution and geographic occurrence     | [Forebears](https://forebears.io/)                   |
+| Deceased Online | Person, cemetery, location        | Research historical deaths and burials | Burial and cremation records                              | [Deceased Online](https://www.deceasedonline.com/)   |
+
+---
+
+## Phase 7: Historical Legal & Case Research
+
+This phase focuses on historical court proceedings, litigation and legal cases.
+| Tool                       | Starting Point             | Purpose                               | What It Provides                                           | URL                                                   |
+| -------------------------- | -------------------------- | ------------------------------------- | ---------------------------------------------------------- | ----------------------------------------------------- |
+| JudyRecords                | Person, organization, case | Search U.S. court cases               | Court case records, parties and case information           | [JudyRecords](https://www.judyrecords.com/)           |
+| UniCourt                   | Person, company, case      | Investigate litigation history        | Court cases, parties, dockets and litigation information   | [UniCourt](https://unicourt.com/)                     |
+| CASECHECK                  | Case name, citation        | Verify legal cases                    | Case information and legal citation checking               | [CASECHECK](https://www.casecheck.co.uk/)             |
+| Case Law Database — UNMICT | Person, case, tribunal     | Research international criminal cases | Judicial decisions and case-law material from UN tribunals | [UNMICT Case Law Database](http://cld.unmict.org/)    |
+| UK Case Tracker            | Case, court, proceeding    | Research UK court proceedings         | Case and hearing information                               | [UK Case Tracker](http://casetracker.justice.gov.uk/) |
+
+---
+
+## Phase 8: Historical Crime, Death & Incident Research
+
+This phase deals with specific historical incidents, rather than general legal records.
+| Tool                   | Starting Point                   | Purpose                                          | What It Provides                                              | URL                                                                                   |
+| ---------------------- | -------------------------------- | ------------------------------------------------ | ------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| MurderMap              | Person, location, date           | Investigate historical homicide cases            | Geographic information and historical London homicide records | [MurderMap](https://www.murdermap.co.uk/)                                             |
+| Ireland Wills Calendar | Person, location, date           | Research historical estates and deceased persons | Historical probate and will-related records                   | [Ireland Wills Calendar](https://apps.proni.gov.uk/WillsCalendar_IE/WillsSearch.aspx) |
+| UK Probate Search      | Person, date                     | Locate historical probate records                | Probate and will records for deceased persons                 | [UK Probate Search](https://probatesearch.service.gov.uk/)                            |
+| Archives.com           | Person, family, historical event | Search historical personal records               | Genealogy, historical documents and family-history records    | [Archives.com](https://www.archives.com/)                                             |
+
+---
+
+## Phase 9: Historical Research Methodology
+
+This phase contains guides and research methodology, rather than another collection of databases.
+| Resource                                            | Starting Point            | Purpose                                        | What It Provides                                                               | URL                                                                                                                                              |
+| --------------------------------------------------- | ------------------------- | ---------------------------------------------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Archives Portal Europe Research Tools               | Archival research problem | Learn how to conduct digital archival research | Search techniques, archival research guidance and research tools               | [Archives Portal Europe Research Tools](https://www.archivesportaleurope.net/tools/)                                                             |
+| Institute of Historical Research Research Resources | Historical research topic | Find curated historical research material      | Research guides, archives, oral histories, newspapers and historical resources | [Institute of Historical Research](https://www.history.ac.uk/research/research-resources-support-historians/open-free-access-materials-research) |
+
+---
+
+# Digital Forensics
+
+Digital forensics is the process of identifying, acquiring, preserving, examining and interpreting digital evidence from computers, mobile devices, storage media, networks, cloud environments and other digital systems. The objective is to reconstruct events, recover evidence, identify artifacts and establish a reliable timeline while maintaining evidence integrity.
+
+---
+
+## Phase 1: Forensic Acquisition & Evidence Preservation
+
+The starting point for many forensic investigations is acquiring a reliable copy of the evidence without unnecessarily altering the original source. This includes disk imaging, forensic acquisition, write protection and integrity verification.
+| Tool               | Starting Point                 | Purpose               | What It Provides                                                 | URL                                                                         |
+| ------------------ | ------------------------------ | --------------------- | ---------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| FTK Imager         | Storage device / disk          | Forensic disk imaging | Creates forensic images and previews evidence                    | [FTK Imager](https://accessdata.com/product-download)                       |
+| Guymager           | Linux system / storage device  | Disk imaging          | Creates forensic images of physical and logical devices          | [Guymager](https://guymager.sourceforge.io)                                 |
+| Binalyze Acquire   | Endpoint / computer            | Forensic acquisition  | Collects forensic evidence from endpoints                        | [Binalyze Acquire](https://www.binalyze.com/)                               |
+
+---
+
+## Phase 2: Disk & File-System Forensics
+
+This phase focuses on examining storage media, partitions, file systems, directories and operating-system data to understand what existed on a device and how it was used.
+| Tool             | Starting Point                 | Purpose                      | What It Provides                                                     | URL                                                                                         |
+| ---------------- | ------------------------------ | ---------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+| X-Ways Forensics | Disk image / storage media     | File-system examination      | Low-level examination of disks, partitions and files                 | [X-Ways Forensics](http://www.x-ways.net/forensics/)                                        |
+| The Sleuth Kit   | Disk image / file system       | File-system analysis         | Command-line tools for examining disk images and file systems        | [The Sleuth Kit](https://www.sleuthkit.org)                                                 |
+| PowerForensics   | Windows system                 | Windows disk forensics       | Accesses and analyzes Windows forensic artifacts                     | [PowerForensics](https://github.com/Invoke-IR/PowerForensics)                               |
+| Dislocker        | BitLocker volume               | Encrypted-volume examination | Provides access to BitLocker-protected volumes for forensic analysis | [Dislocker](https://github.com/Aorimn/dislocker)                                            |
+
+---
+
+## Phase 3: File Analysis & Low-Level Data Forensics
+
+This phase deals with examining files and raw data at a lower level, including hexadecimal structures, file signatures and data that may not be visible through normal applications.
+| Tool           | Starting Point              | Purpose                     | What It Provides                                                                                        | URL                                                         |
+| -------------- | --------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------- |
+| HxD            | File / disk / memory dump   | Hexadecimal analysis        | Allows examination and editing of raw hexadecimal data                                                  | [HxD](https://mh-nexus.de/en/hxd/)                          |
+| WinHex         | File / disk image           | Low-level forensic analysis | Hexadecimal and disk-level examination capabilities                                                     | [WinHex](https://www.x-ways.net/winhex/)                    |
+| Bulk Extractor | Disk image / forensic image | Data extraction             | Extracts useful information such as URLs, emails and other artifacts without relying on the file system | [Bulk Extractor](https://github.com/simsong/bulk_extractor) |
+
+---
+
+## Phase 4: File Carving & Deleted Data Recovery
+
+File carving attempts to recover data from unallocated space or damaged file systems using file signatures and other structural information rather than relying solely on directory entries.
+| Tool        | Starting Point             | Purpose                            | What It Provides                                                  | URL                                                          |
+| ----------- | -------------------------- | ---------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------ |
+| Foremost    | Disk image / raw data      | File recovery                      | Recovers files based on known file structures                     | [Foremost](http://foremost.sourceforge.net)                  |
+| TestDisk    | Damaged disk / partition   | Partition and file-system recovery | Recovers lost partitions and repairs certain file-system problems | [TestDisk](https://www.cgsecurity.org/wiki/TestDisk)         |
+| PhotoRec    | Disk image / storage media | File carving                       | Recovers files from damaged or reformatted media                  | [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec)         |
+| Extundelete | Linux file system          | Deleted-file recovery              | Attempts recovery of deleted files from ext-based file systems    | [Extundelete](http://extundelete.sourceforge.net/)           |
+
+---
+
+## Phase 5: Memory Forensics
+
+Memory forensics examines volatile memory captured from a running or recently running system. It can reveal processes, network connections, loaded modules, credentials and other information that may not exist on disk.
+| Tool       | Starting Point         | Purpose                         | What It Provides                                                           | URL                                                                 |
+| ---------- | ---------------------- | ------------------------------- | -------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Volatility | Memory dump            | Memory analysis                 | Analyzes processes, handles, network artifacts and other volatile evidence | [Volatility](https://www.volatilityfoundation.org/)                 |
+| Rekall     | Memory dump            | Memory forensics                | Framework for analyzing volatile memory                                    | [Rekall](http://www.rekall-forensic.com/)                           |
+| VolDiff    | Multiple memory images | Memory comparison               | Compares memory images to identify differences                             | [VolDiff](https://github.com/aim4r/VolDiff)                         |
+| Memoryze   | Windows memory         | Memory acquisition and analysis | Captures and analyzes volatile memory from Windows systems                 | [Memoryze](https://www.fireeye.com/services/freeware/memoryze.html) |
+
+---
+
+## Phase 6: Network Forensics
+
+Network forensics focuses on captured network traffic and communications to reconstruct connections, sessions, protocols and transferred information.
+| Tool         | Starting Point         | Purpose                         | What It Provides                                                    | URL                                                        |
+| ------------ | ---------------------- | ------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
+| Wireshark    | PCAP / live traffic    | Packet analysis                 | Deep inspection of network protocols and packets                    | [Wireshark](https://www.wireshark.org)                     |
+| NetworkMiner | PCAP / network traffic | Network forensics               | Extracts hosts, files, credentials and other artifacts from traffic | [NetworkMiner](http://www.netresec.com/?page=NetworkMiner) |
+| Xplico       | Network capture        | Network forensics               | Reconstructs application data and sessions from captured traffic    | [Xplico](http://www.xplico.org/)                           |
+| tcpdump      | Live traffic / PCAP    | Packet capture                  | Captures and filters network packets from the command line          | [tcpdump](https://www.tcpdump.org/)                        |
+| ngrep        | Network traffic        | Traffic inspection              | Searches network traffic using pattern matching                     | [ngrep](https://github.com/jpr5/ngrep)                     |
+| Snort        | Network traffic        | Network monitoring and analysis | Inspects traffic for suspicious network activity                    | [Snort](https://www.snort.org/)                            |
+
+---
+
+## Phase 7: Windows & System Artifact Forensics
+
+Operating systems leave behind numerous artifacts that can reveal user activity, configuration changes, execution history and system events.
+| Tool          | Starting Point    | Purpose                             | What It Provides                                                               | URL                                                             |
+| ------------- | ----------------- | ----------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------- |
+| RegRipper     | Windows Registry  | Registry analysis                   | Parses Registry hives and extracts forensic artifacts                          | [RegRipper](https://github.com/keydet89/RegRipper3.0)           |
+| Fibratus      | Windows system    | Kernel and system activity analysis | Observes Windows kernel activity and system events                             | [Fibratus](https://github.com/rabbitstack/fibratus)             |
+
+
+---
+
+## Phase 8: Browser & Internet Artifact Forensics
+
+Web browsers and internet applications leave artifacts such as browsing history, cached content, cookies, downloads and session information.
+| Tool                   | Starting Point              | Purpose                   | What It Provides                                      | URL                                                                               |
+| ---------------------- | --------------------------- | ------------------------- | ----------------------------------------------------- | --------------------------------------------------------------------------------- |
+| Browser History Viewer | Browser profile             | Browser artifact analysis | Examines browser history and related activity         | [Browser History Viewer](https://www.foxtonforensics.com/browser-history-viewer/) |
+
+---
+
+## Phase 9: Timeline & Event Reconstruction
+
+Timeline analysis combines timestamps from multiple artifacts to reconstruct what happened on a system and when events occurred.
+| Tool  | Starting Point                  | Purpose             | What It Provides                                  | URL                                                                            |
+| ----- | ------------------------------- | ------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------ |
+| Plaso | Disk image / forensic artifacts | Timeline generation | Extracts timestamps and builds forensic timelines | [Plaso](https://plaso.readthedocs.io/en/) |
+| FTK Email Collector | Email accounts / mail data | Email acquisition | Collects email evidence for forensic examination | [FTK Email Collector](https://accessdata.com/products-services/e-discovery/email-examination/ftk-email-collector) |
+| Arsenal Recon | Live endpoint  | Forensic triage | Supports rapid endpoint evidence collection and investigation | [Arsenal Recon](https://arsenalrecon.com/)                 |
+
+---
+
+## Phase 10: Metadata & File Attribute Forensics
+
+Metadata can reveal information about how, when and sometimes where a file was created, modified or processed. This includes EXIF, XMP, document metadata, timestamps, software information and other embedded attributes. ExifTool supports reading metadata across a very broad range of file types, including images and office/document formats.
+| Tool               | Starting Point                | Purpose                 | What It Provides                                                              | URL                                                  |
+| ------------------ | ----------------------------- | ----------------------- | ----------------------------------------------------------------------------- | ---------------------------------------------------- |
+| ExifTool           | Image / document / media file | Metadata analysis       | Reads EXIF, XMP and other embedded metadata across many file formats          | [ExifTool](https://exiftool.org/)                    |
+| ExifTool Tag Names | Metadata field                | Metadata interpretation | Detailed reference for understanding metadata fields and format-specific tags | [ExifTool Tag Names](https://exiftool.org/TagNames/) |
+
+---
+
+## Phase 11: File Identification & Format Analysis
+
+Before examining a file, investigators often need to establish what the file actually is rather than trusting its extension. File-format identification can expose mismatched extensions, unknown formats and technical characteristics.
+| Tool   | Starting Point         | Purpose                         | What It Provides                                                                         | URL                                                                                                                      |
+| ------ | ---------------------- | ------------------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| PRONOM | Unknown / digital file | File-format identification      | Technical registry containing file-format signatures, identifiers and format information | [PRONOM](https://pronom.nationalarchives.gov.uk/)                                                                        |
+| DROID  | Files / directories    | Automated format identification | Identifies file formats using signatures linked to PRONOM                                | [DROID](https://www.nationalarchives.gov.uk/information-management/manage-information/preserving-digital-records/droid/) |
+
+---
+
+Phase 12: PDF & Document Forensics
+
+PDFs and office documents can contain much more information than what is visible when opened normally. Their internal structure may contain metadata, embedded objects, JavaScript, incremental updates, hidden content, annotations and other artifacts.
+| Tool                           | Starting Point | Purpose                 | What It Provides                                                                                              | URL                                                                                            |
+| ------------------------------ | -------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| PDFiD                          | PDF document   | PDF triage              | Scans PDFs for potentially significant structures and keywords such as JavaScript, OpenAction, Launch and XFA | [PDFiD](https://github.com/DidierStevens/DidierStevensSuite/blob/master/pdfid.py)              |
+| PDF Association Forensic Tools | PDF document   | PDF forensic research   | Curated reference to PDF-aware forensic tools and techniques                                                  | [PDF Forensic Tools](https://pdfa.org/forensic-tools-for-pdf/)                                 |
+| Sherlock Forensics             | PDF document   | PDF investigation       | Examines PDF metadata, structural indicators, revisions and potential redaction problems                      | [Sherlock Forensics](https://www.sherlockforensics.com/pages/sherlock-pdf-editor.html)         |
+| PyMuPDF            | PDF document   | PDF content inspection | Programmatic access to PDF text, pages and document structures useful for forensic examination             | [PyMuPDF](https://pymupdf.readthedocs.io/)                                             |
+| pdftotext          | PDF document   | Text-layer examination | Extracts text from PDFs to help determine whether supposedly hidden text remains present                   | [pdftotext](https://www.xpdfreader.com/pdftotext-man.html)                             |
+| SSDeep   | Files / malware samples | Fuzzy hashing                    | Generates context-triggered piecewise hashes for similarity comparisons | [SSDeep](https://ssdeep-project.github.io/ssdeep/) |
+
+---
+
+## Phase 13: Steganography & Hidden Data Analysis
+
+Steganography attempts to hide information inside apparently ordinary files such as images.
+| Tool                 | Starting Point                | Purpose                       | What It Provides                                                                            | URL                                                                |
+| -------------------- | ----------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
+| zsteg                | PNG / BMP                     | Steganography detection       | Detects multiple forms of hidden data including LSB-based techniques                        | [zsteg](https://github.com/zed-0xff/zsteg)                         |
+| OpenStego            | Image / stego file            | Data hiding analysis          | Supports hiding and extracting data from cover files and watermark verification             | [OpenStego](https://www.openstego.com/)                            |
+| Stegseek             | Steghide-compatible image     | Steganography analysis        | Extracts or tests steghide-based hidden data and supports password-based recovery workflows | [Stegseek](https://github.com/RickdeJager/stegseek)                |
+| Steganography Online | Image / hidden-data challenge | Steganography experimentation | Browser-based tools for embedding and extracting hidden data                                | [Steganography Online](https://stylesuxx.github.io/steganography/) |
 
