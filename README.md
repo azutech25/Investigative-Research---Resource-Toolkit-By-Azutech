@@ -5,12 +5,12 @@ A curated collection of investigative resources, research tools, datasets, metho
 ---
 
 ## Resource Areas
+[ Open Source Intelligence (OSINT)](##Open-Source-Intelligence-(OSINT))
 
-**Open-Source Intelligence (OSINT)** / **Digital Forensics** / **Geospatial Intelligence (GEOINT)** / **Geopolitical Intelligence** / **Cyber Threat Intelligence (CTI)** / **Social Media Intelligence (SOCMINT)** / **Human Intelligence (HUMINT)** / **Corporate & Business Intelligence** / **Financial Intelligence** / **Cryptocurrency Intelligence** / **Economic Intelligence** / **Public Records Intelligence** / **Document & Data Intelligence** / **News & Media Intelligence** / **Archival & Historical Intelligence** / **Satellite & Remote Sensing Intelligence** / **Transportation Intelligence** / **Aviation Intelligence** / **Maritime Intelligence** / **Vehicle Intelligence** / **Threat & Risk Intelligence** / **Malware & Vulnerability Intelligence** / **Dark Web & Leak Intelligence** / **Law Enforcement & Criminal Intelligence** / **Scientific & Academic Intelligence** / **Research Intelligence** / **Country & Regional Intelligence** / **Open Data & Datasets** / **Investigative Methodology** / **Research & Investigation Utilities**
 
 ---
 
-## OSINT
+## Open Source Intelligence (OSINT)
 
 OSINT investigations often begin with a small piece of information such as a username, full name, email address, phone number, domain, IP address, image, location, organization, or document.
 
@@ -1304,4 +1304,19 @@ Steganography attempts to hide information inside apparently ordinary files such
 | OpenStego            | Image / stego file            | Data hiding analysis          | Supports hiding and extracting data from cover files and watermark verification             | [OpenStego](https://www.openstego.com/)                            |
 | Stegseek             | Steghide-compatible image     | Steganography analysis        | Extracts or tests steghide-based hidden data and supports password-based recovery workflows | [Stegseek](https://github.com/RickdeJager/stegseek)                |
 | Steganography Online | Image / hidden-data challenge | Steganography experimentation | Browser-based tools for embedding and extracting hidden data                                | [Steganography Online](https://stylesuxx.github.io/steganography/) |
+
+---
+
+## Digital Forensics Resources & Learning
+| Resource                                          | Type                 | What It Covers                                                         | URL                                                                                                                          |
+| ------------------------------------------------- | -------------------- | ---------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| FOR585 – Android Third-Party Apps Forensics       | Guide / Reference    | Android application artifacts and forensic analysis                    | [FOR585 Android Third-Party Apps Forensics](https://www.sans.org/posters/android-third-party-apps-forensics/)                |
+| FOR585 – iOS Third-Party Apps Forensics           | Guide / Reference    | iOS application artifacts and forensic analysis                        | [FOR585 iOS Third-Party Apps Forensics](https://www.sans.org/posters/ios-third-party-apps-forensics-reference-guide-poster/) |
+| FOR585 – Smartphone Forensic Analysis             | Guide / Reference    | Smartphone forensic examination and SQLite-based application artifacts | [FOR585 Smartphone Forensic Analysis](https://www.sans.org/posters/dfir-advanced-smartphone-forensics/)                      |
+| FOR585 – Smartphone Forensic Analysis Interactive | Interactive Resource | Interactive reference for smartphone forensics                         | [FOR585 Interactive Smartphone Forensic Analysis](https://digital-forensics.sans.org/media/DFIR_FOR585_Digital_Poster.pdf)   |
+| Hex File Headers and Regex for Forensics          | Cheat Sheet          | File signatures, hexadecimal headers and regular expressions           | [Hex File Headers and Regex for Forensics](https://www.sans.org/posters/hex-and-regex-forensics-cheat-sheet/)                |
+| Memory Forensics Cheat Sheet                      | Cheat Sheet          | Memory acquisition and analysis references                             | [Memory Forensics Cheat Sheet](https://www.sans.org/posters/memory-forensics-cheat-sheet/)                                   |
+| oledump.py Quick Reference                        | Quick Reference      | OLE and Office document analysis                                       | [oledump.py Quick Reference](https://www.sans.org/posters/oledump-py-quick-reference/)                                       |
+| SIFT & REMnux                                     | Reference / Learning | DFIR environments and forensic/malware investigation workflows         | [SIFT & REMnux](https://www.sans.org/posters/sift-remnux-poster/)                                                            |
+| SIFT Workstation Cheat Sheet                      | Cheat Sheet          | Digital forensic investigation using SIFT                              | [SIFT Workstation Cheat Sheet](https://www.sans.org/posters/sift-workstation-cheat-sheet-v3-0/)                              |
 
