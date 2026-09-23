@@ -97,6 +97,24 @@ A curated collection of investigative resources, research tools, datasets, metho
 
 ---
 
+##  Professional OSINT Practitioner Course
+
+For those looking to move beyond individual tools and develop a structured approach to open-source intelligence, this two-volume course provides a practical learning path from foundational OSINT concepts to professional investigation and intelligence workflows.
+
+###  Volume I — Foundations
+
+Builds the foundational knowledge required to approach OSINT investigations systematically, covering core concepts, investigative methodology, information sources, and practical intelligence-gathering techniques.
+
+**[Read Volume I — The Professional OSINT Practitioner](https://d4rkintel.substack.com/p/the-professional-osint-practitioner)**
+
+###  Volume II — Professional Practice
+
+Continues from the foundations into more advanced OSINT practice, covering specialized investigative areas, technical intelligence, geolocation, transportation intelligence, automation, reporting, and practical investigation workflows.
+
+**[Read Volume II — The Professional OSINT Practitioner](https://d4rkintel.substack.com/p/the-professional-osint-practitioner-d50)**
+
+---
+
 ## Open Source Intelligence (OSINT)
 
 OSINT investigations often begin with a small piece of information such as a username, full name, email address, phone number, domain, IP address, image, location, organization, or document.
